@@ -49,11 +49,11 @@ else ()
     add_compile_options(-Og -g)
 endif ()
 
-include_directories(Core/Inc Drivers/STM32F0xx_HAL_Driver/Inc Drivers/STM32F0xx_HAL_Driver/Inc/Legacy Drivers/CMSIS/Device/ST/STM32F0xx/Include Drivers/CMSIS/Include)
+include_directories(src/Inc Drivers/STM32F0xx_HAL_Driver/Inc Drivers/STM32F0xx_HAL_Driver/Inc/Legacy Drivers/CMSIS/Device/ST/STM32F0xx/Include Drivers/CMSIS/Include)
 
 add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F051x8)
 
-file(GLOB_RECURSE SOURCES "Core/*.*" "Drivers/*.*")
+file(GLOB_RECURSE SOURCES "src/*.*" "Drivers/*.*")
 
 set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F051R8TX_FLASH.ld)
 

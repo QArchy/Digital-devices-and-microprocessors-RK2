@@ -1,6 +1,6 @@
 /**************************************************************************//**
  * @file     core_cm4.h
- * @brief    CMSIS Cortex-M4 Core Peripheral Access Layer Header File
+ * @brief    CMSIS Cortex-M4 src Peripheral Access Layer Header File
  * @version  V5.0.8
  * @date     04. June 2018
  ******************************************************************************/
@@ -68,7 +68,7 @@
 #define __CM4_CMSIS_VERSION       ((__CM4_CMSIS_VERSION_MAIN << 16U) | \
                                     __CM4_CMSIS_VERSION_SUB           )  /*!< \deprecated CMSIS HAL version number */
 
-#define __CORTEX_M                (4U)                                   /*!< Cortex-M Core */
+#define __CORTEX_M                (4U)                                   /*!< Cortex-M src */
 
 /** __FPU_USED indicates whether an FPU is used or not.
     For this, __FPU_PRESENT has to be checked prior to making use of FPU specific registers and functions.
@@ -232,14 +232,14 @@
 
 /*******************************************************************************
  *                 Register Abstraction
-  Core Register contain:
-  - Core Register
-  - Core NVIC Register
-  - Core SCB Register
-  - Core SysTick Register
-  - Core Debug Register
-  - Core MPU Register
-  - Core FPU Register
+  src Register contain:
+  - src Register
+  - src NVIC Register
+  - src SCB Register
+  - src SysTick Register
+  - src Debug Register
+  - src MPU Register
+  - src FPU Register
  ******************************************************************************/
 /**
   \defgroup CMSIS_core_register Defines and Type Definitions
@@ -249,7 +249,7 @@
 /**
   \ingroup    CMSIS_core_register
   \defgroup   CMSIS_CORE  Status and Control Registers
-  \brief      Core Register type definitions.
+  \brief      src Register type definitions.
   @{
  */
 
@@ -1414,19 +1414,19 @@ typedef struct
 
 /**
   \ingroup  CMSIS_core_register
-  \defgroup CMSIS_CoreDebug       Core Debug Registers (CoreDebug)
-  \brief    Type definitions for the Core Debug Registers
+  \defgroup CMSIS_CoreDebug       src Debug Registers (CoreDebug)
+  \brief    Type definitions for the src Debug Registers
   @{
  */
 
 /**
-  \brief  Structure type to access the Core Debug Register (CoreDebug).
+  \brief  Structure type to access the src Debug Register (CoreDebug).
  */
 typedef struct
 {
   __IOM uint32_t DHCSR;                  /*!< Offset: 0x000 (R/W)  Debug Halting Control and Status Register */
-  __OM  uint32_t DCRSR;                  /*!< Offset: 0x004 ( /W)  Debug Core Register Selector Register */
-  __IOM uint32_t DCRDR;                  /*!< Offset: 0x008 (R/W)  Debug Core Register Data Register */
+  __OM  uint32_t DCRSR;                  /*!< Offset: 0x004 ( /W)  Debug src Register Selector Register */
+  __IOM uint32_t DCRDR;                  /*!< Offset: 0x008 (R/W)  Debug src Register Data Register */
   __IOM uint32_t DEMCR;                  /*!< Offset: 0x00C (R/W)  Debug Exception and Monitor Control Register */
 } CoreDebug_Type;
 
@@ -1467,7 +1467,7 @@ typedef struct
 #define CoreDebug_DHCSR_C_DEBUGEN_Pos       0U                                            /*!< CoreDebug DHCSR: C_DEBUGEN Position */
 #define CoreDebug_DHCSR_C_DEBUGEN_Msk      (1UL /*<< CoreDebug_DHCSR_C_DEBUGEN_Pos*/)     /*!< CoreDebug DHCSR: C_DEBUGEN Mask */
 
-/* Debug Core Register Selector Register Definitions */
+/* Debug src Register Selector Register Definitions */
 #define CoreDebug_DCRSR_REGWnR_Pos         16U                                            /*!< CoreDebug DCRSR: REGWnR Position */
 #define CoreDebug_DCRSR_REGWnR_Msk         (1UL << CoreDebug_DCRSR_REGWnR_Pos)            /*!< CoreDebug DCRSR: REGWnR Mask */
 
@@ -1519,7 +1519,7 @@ typedef struct
 
 /**
   \ingroup    CMSIS_core_register
-  \defgroup   CMSIS_core_bitfield     Core register bit field macros
+  \defgroup   CMSIS_core_bitfield     src register bit field macros
   \brief      Macros for use with bit field definitions (xxx_Pos, xxx_Msk).
   @{
  */
@@ -1545,17 +1545,17 @@ typedef struct
 
 /**
   \ingroup    CMSIS_core_register
-  \defgroup   CMSIS_core_base     Core Definitions
+  \defgroup   CMSIS_core_base     src Definitions
   \brief      Definitions for base addresses, unions, and structures.
   @{
  */
 
-/* Memory mapping of Core Hardware */
+/* Memory mapping of src Hardware */
 #define SCS_BASE            (0xE000E000UL)                            /*!< System Control Space Base Address */
 #define ITM_BASE            (0xE0000000UL)                            /*!< ITM Base Address */
 #define DWT_BASE            (0xE0001000UL)                            /*!< DWT Base Address */
 #define TPI_BASE            (0xE0040000UL)                            /*!< TPI Base Address */
-#define CoreDebug_BASE      (0xE000EDF0UL)                            /*!< Core Debug Base Address */
+#define CoreDebug_BASE      (0xE000EDF0UL)                            /*!< src Debug Base Address */
 #define SysTick_BASE        (SCS_BASE +  0x0010UL)                    /*!< SysTick Base Address */
 #define NVIC_BASE           (SCS_BASE +  0x0100UL)                    /*!< NVIC Base Address */
 #define SCB_BASE            (SCS_BASE +  0x0D00UL)                    /*!< System Control Block Base Address */
@@ -1567,7 +1567,7 @@ typedef struct
 #define ITM                 ((ITM_Type       *)     ITM_BASE      )   /*!< ITM configuration struct */
 #define DWT                 ((DWT_Type       *)     DWT_BASE      )   /*!< DWT configuration struct */
 #define TPI                 ((TPI_Type       *)     TPI_BASE      )   /*!< TPI configuration struct */
-#define CoreDebug           ((CoreDebug_Type *)     CoreDebug_BASE)   /*!< Core Debug configuration struct */
+#define CoreDebug           ((CoreDebug_Type *)     CoreDebug_BASE)   /*!< src Debug configuration struct */
 
 #if defined (__MPU_PRESENT) && (__MPU_PRESENT == 1U)
   #define MPU_BASE          (SCS_BASE +  0x0D90UL)                    /*!< Memory Protection Unit */
@@ -1583,11 +1583,11 @@ typedef struct
 
 /*******************************************************************************
  *                Hardware Abstraction Layer
-  Core Function Interface contains:
-  - Core NVIC Functions
-  - Core SysTick Functions
-  - Core Debug Functions
-  - Core Register Access Functions
+  src Function Interface contains:
+  - src NVIC Functions
+  - src SysTick Functions
+  - src Debug Functions
+  - src Register Access Functions
  ******************************************************************************/
 /**
   \defgroup CMSIS_Core_FunctionInterface Functions and Instructions Reference

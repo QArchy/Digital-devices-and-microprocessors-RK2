@@ -27,7 +27,7 @@
 					<Add option="-DDEBUG"/>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F051x8"/>
-					<Add directory="C:/Users/xyarc/YandexDisk/Byz/Digital devices and microprocessors/RK2/Core/Inc"/>
+					<Add directory="C:/Users/xyarc/YandexDisk/Byz/Digital devices and microprocessors/RK2/src/Inc"/>
 					<Add directory="C:/Users/xyarc/YandexDisk/Byz/Digital devices and microprocessors/RK2/Drivers/STM32F0xx_HAL_Driver/Inc"/>
 					<Add directory="C:/Users/xyarc/YandexDisk/Byz/Digital devices and microprocessors/RK2/Drivers/STM32F0xx_HAL_Driver/Inc/Legacy"/>
 					<Add directory="C:/Users/xyarc/YandexDisk/Byz/Digital devices and microprocessors/RK2/Drivers/CMSIS/Device/ST/STM32F0xx/Include"/>
@@ -56,7 +56,7 @@
 					<Add option="-DDEBUG"/>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F051x8"/>
-					<Add directory="C:/Users/xyarc/YandexDisk/Byz/Digital devices and microprocessors/RK2/Core/Inc"/>
+					<Add directory="C:/Users/xyarc/YandexDisk/Byz/Digital devices and microprocessors/RK2/src/Inc"/>
 					<Add directory="C:/Users/xyarc/YandexDisk/Byz/Digital devices and microprocessors/RK2/Drivers/STM32F0xx_HAL_Driver/Inc"/>
 					<Add directory="C:/Users/xyarc/YandexDisk/Byz/Digital devices and microprocessors/RK2/Drivers/STM32F0xx_HAL_Driver/Inc/Legacy"/>
 					<Add directory="C:/Users/xyarc/YandexDisk/Byz/Digital devices and microprocessors/RK2/Drivers/CMSIS/Device/ST/STM32F0xx/Include"/>
@@ -96,12 +96,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/xyarc/YandexDisk/Byz/Digital devices and microprocessors/RK2/Core/Startup/startup_stm32f051r8tx.s">
-			<Option target="RK2.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/xyarc/YandexDisk/Byz/Digital devices and microprocessors/RK2/Core/main.c">
-			<Option target="RK2.elf"/>
-		</Unit>
 		<Unit filename="C:/Users/xyarc/YandexDisk/Byz/Digital devices and microprocessors/RK2/Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f051x8.h">
 			<Option target="RK2.elf"/>
 		</Unit>
@@ -175,6 +169,57 @@
 			<Option target="RK2.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/xyarc/YandexDisk/Byz/Digital devices and microprocessors/RK2/STM32F051R8TX_FLASH.ld">
+			<Option target="RK2.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/xyarc/YandexDisk/Byz/Digital devices and microprocessors/RK2/src/COMMAND_RESOLVE/command.c">
+			<Option target="RK2.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/xyarc/YandexDisk/Byz/Digital devices and microprocessors/RK2/src/COMMAND_RESOLVE/command.h">
+			<Option target="RK2.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/xyarc/YandexDisk/Byz/Digital devices and microprocessors/RK2/src/DMA_ADC/ADC/adc.c">
+			<Option target="RK2.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/xyarc/YandexDisk/Byz/Digital devices and microprocessors/RK2/src/DMA_ADC/ADC/adc.h">
+			<Option target="RK2.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/xyarc/YandexDisk/Byz/Digital devices and microprocessors/RK2/src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.c">
+			<Option target="RK2.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/xyarc/YandexDisk/Byz/Digital devices and microprocessors/RK2/src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.h">
+			<Option target="RK2.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/xyarc/YandexDisk/Byz/Digital devices and microprocessors/RK2/src/DMA_ADC/setup_DMA_ADC.c">
+			<Option target="RK2.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/xyarc/YandexDisk/Byz/Digital devices and microprocessors/RK2/src/DMA_ADC/setup_DMA_ADC.h">
+			<Option target="RK2.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/xyarc/YandexDisk/Byz/Digital devices and microprocessors/RK2/src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.c">
+			<Option target="RK2.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/xyarc/YandexDisk/Byz/Digital devices and microprocessors/RK2/src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.h">
+			<Option target="RK2.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/xyarc/YandexDisk/Byz/Digital devices and microprocessors/RK2/src/DMA_USART1/USART1/usart1.c">
+			<Option target="RK2.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/xyarc/YandexDisk/Byz/Digital devices and microprocessors/RK2/src/DMA_USART1/USART1/usart1.h">
+			<Option target="RK2.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/xyarc/YandexDisk/Byz/Digital devices and microprocessors/RK2/src/DMA_USART1/setup_DMA_USART1.c">
+			<Option target="RK2.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/xyarc/YandexDisk/Byz/Digital devices and microprocessors/RK2/src/DMA_USART1/setup_DMA_USART1.h">
+			<Option target="RK2.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/xyarc/YandexDisk/Byz/Digital devices and microprocessors/RK2/src/Startup/startup_stm32f051r8tx.s">
+			<Option target="RK2.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/xyarc/YandexDisk/Byz/Digital devices and microprocessors/RK2/src/main.c">
+			<Option target="RK2.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/xyarc/YandexDisk/Byz/Digital devices and microprocessors/RK2/src/main.h">
 			<Option target="RK2.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/xyarc/YandexDisk/Byz/Digital devices and microprocessors/RK2/CMakeLists.txt">

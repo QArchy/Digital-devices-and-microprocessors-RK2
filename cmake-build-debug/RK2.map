@@ -76,12 +76,33 @@ Discarded input sections
                 0x00000000       0xe2 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crt0.o
  .ARM.attributes
                 0x00000000       0x1b c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crt0.o
- .text          0x00000000       0x14 CMakeFiles/RK2.elf.dir/Core/Startup/startup_stm32f051r8tx.s.obj
- .data          0x00000000        0x0 CMakeFiles/RK2.elf.dir/Core/Startup/startup_stm32f051r8tx.s.obj
- .bss           0x00000000        0x0 CMakeFiles/RK2.elf.dir/Core/Startup/startup_stm32f051r8tx.s.obj
- .text          0x00000000        0x0 CMakeFiles/RK2.elf.dir/Core/main.c.obj
- .data          0x00000000        0x0 CMakeFiles/RK2.elf.dir/Core/main.c.obj
- .bss           0x00000000        0x0 CMakeFiles/RK2.elf.dir/Core/main.c.obj
+ .text          0x00000000        0x0 CMakeFiles/RK2.elf.dir/src/COMMAND_RESOLVE/command.c.obj
+ .data          0x00000000        0x0 CMakeFiles/RK2.elf.dir/src/COMMAND_RESOLVE/command.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/RK2.elf.dir/src/COMMAND_RESOLVE/command.c.obj
+ .text          0x00000000        0x0 CMakeFiles/RK2.elf.dir/src/DMA_ADC/ADC/adc.c.obj
+ .data          0x00000000        0x0 CMakeFiles/RK2.elf.dir/src/DMA_ADC/ADC/adc.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/RK2.elf.dir/src/DMA_ADC/ADC/adc.c.obj
+ .text          0x00000000        0x0 CMakeFiles/RK2.elf.dir/src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.c.obj
+ .data          0x00000000        0x0 CMakeFiles/RK2.elf.dir/src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/RK2.elf.dir/src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.c.obj
+ .text          0x00000000        0x0 CMakeFiles/RK2.elf.dir/src/DMA_ADC/setup_DMA_ADC.c.obj
+ .data          0x00000000        0x0 CMakeFiles/RK2.elf.dir/src/DMA_ADC/setup_DMA_ADC.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/RK2.elf.dir/src/DMA_ADC/setup_DMA_ADC.c.obj
+ .text          0x00000000        0x0 CMakeFiles/RK2.elf.dir/src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.c.obj
+ .data          0x00000000        0x0 CMakeFiles/RK2.elf.dir/src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/RK2.elf.dir/src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.c.obj
+ .text          0x00000000        0x0 CMakeFiles/RK2.elf.dir/src/DMA_USART1/USART1/usart1.c.obj
+ .data          0x00000000        0x0 CMakeFiles/RK2.elf.dir/src/DMA_USART1/USART1/usart1.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/RK2.elf.dir/src/DMA_USART1/USART1/usart1.c.obj
+ .text          0x00000000        0x0 CMakeFiles/RK2.elf.dir/src/DMA_USART1/setup_DMA_USART1.c.obj
+ .data          0x00000000        0x0 CMakeFiles/RK2.elf.dir/src/DMA_USART1/setup_DMA_USART1.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/RK2.elf.dir/src/DMA_USART1/setup_DMA_USART1.c.obj
+ .text          0x00000000       0x14 CMakeFiles/RK2.elf.dir/src/Startup/startup_stm32f051r8tx.s.obj
+ .data          0x00000000        0x0 CMakeFiles/RK2.elf.dir/src/Startup/startup_stm32f051r8tx.s.obj
+ .bss           0x00000000        0x0 CMakeFiles/RK2.elf.dir/src/Startup/startup_stm32f051r8tx.s.obj
+ .text          0x00000000        0x0 CMakeFiles/RK2.elf.dir/src/main.c.obj
+ .data          0x00000000        0x0 CMakeFiles/RK2.elf.dir/src/main.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/RK2.elf.dir/src/main.c.obj
  .text          0x00000000        0x0 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-exit.o)
  .data          0x00000000        0x0 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-exit.o)
  .bss           0x00000000        0x0 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-exit.o)
@@ -366,8 +387,15 @@ Linker script and memory map
 LOAD c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crti.o
 LOAD c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
 LOAD c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crt0.o
-LOAD CMakeFiles/RK2.elf.dir/Core/Startup/startup_stm32f051r8tx.s.obj
-LOAD CMakeFiles/RK2.elf.dir/Core/main.c.obj
+LOAD CMakeFiles/RK2.elf.dir/src/COMMAND_RESOLVE/command.c.obj
+LOAD CMakeFiles/RK2.elf.dir/src/DMA_ADC/ADC/adc.c.obj
+LOAD CMakeFiles/RK2.elf.dir/src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.c.obj
+LOAD CMakeFiles/RK2.elf.dir/src/DMA_ADC/setup_DMA_ADC.c.obj
+LOAD CMakeFiles/RK2.elf.dir/src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.c.obj
+LOAD CMakeFiles/RK2.elf.dir/src/DMA_USART1/USART1/usart1.c.obj
+LOAD CMakeFiles/RK2.elf.dir/src/DMA_USART1/setup_DMA_USART1.c.obj
+LOAD CMakeFiles/RK2.elf.dir/src/Startup/startup_stm32f051r8tx.s.obj
+LOAD CMakeFiles/RK2.elf.dir/src/main.c.obj
 START GROUP
 LOAD c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libgcc.a
 LOAD c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a
@@ -382,11 +410,11 @@ LOAD c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb
 .isr_vector     0x08000000       0xc0
                 0x08000000                        . = ALIGN (0x4)
  *(.isr_vector)
- .isr_vector    0x08000000       0xc0 CMakeFiles/RK2.elf.dir/Core/Startup/startup_stm32f051r8tx.s.obj
+ .isr_vector    0x08000000       0xc0 CMakeFiles/RK2.elf.dir/src/Startup/startup_stm32f051r8tx.s.obj
                 0x08000000                g_pfnVectors
                 0x080000c0                        . = ALIGN (0x4)
 
-.text           0x080000c0      0x288
+.text           0x080000c0      0x7e8
                 0x080000c0                        . = ALIGN (0x4)
  *(.text)
  *(.text*)
@@ -398,144 +426,205 @@ LOAD c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb
                 0x08000108       0x2c c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
  .text.frame_dummy
                 0x08000134       0x24 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
+ .text.get_adc_frequency
+                0x08000158       0x2e CMakeFiles/RK2.elf.dir/src/COMMAND_RESOLVE/command.c.obj
+ *fill*         0x08000186        0x2 
+ .text.PARSE_COMMAND
+                0x08000188       0x2c CMakeFiles/RK2.elf.dir/src/COMMAND_RESOLVE/command.c.obj
+                0x08000188                PARSE_COMMAND
+ .text.RESOLVE_COMMAND
+                0x080001b4       0x8c CMakeFiles/RK2.elf.dir/src/COMMAND_RESOLVE/command.c.obj
+                0x080001b4                RESOLVE_COMMAND
+ .text.EXECUTE_COMMAND
+                0x08000240       0xe8 CMakeFiles/RK2.elf.dir/src/COMMAND_RESOLVE/command.c.obj
+                0x08000240                EXECUTE_COMMAND
+ .text.SETUP_GPIO_FOR_ADC
+                0x08000328       0x1c CMakeFiles/RK2.elf.dir/src/DMA_ADC/ADC/adc.c.obj
+ .text.SETUP_DMA_FOR_ADC
+                0x08000344       0x18 CMakeFiles/RK2.elf.dir/src/DMA_ADC/ADC/adc.c.obj
+ .text.SETUP_TIM15_FOR_ADC
+                0x0800035c       0x34 CMakeFiles/RK2.elf.dir/src/DMA_ADC/ADC/adc.c.obj
+ .text.CONFIGURE_TIM15_AS_TRGO
+                0x08000390       0x34 CMakeFiles/RK2.elf.dir/src/DMA_ADC/ADC/adc.c.obj
+ .text.START_ADC
+                0x080003c4       0x24 CMakeFiles/RK2.elf.dir/src/DMA_ADC/ADC/adc.c.obj
+ .text.SETUP_ADC
+                0x080003e8       0x54 CMakeFiles/RK2.elf.dir/src/DMA_ADC/ADC/adc.c.obj
+                0x080003e8                SETUP_ADC
+ .text.DMA1_Channel1_IRQHandler
+                0x0800043c       0x1c CMakeFiles/RK2.elf.dir/src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.c.obj
+                0x0800043c                DMA1_Channel1_IRQHandler
+ .text.SETUP_DMA_FOR_ADC
+                0x08000458       0x68 CMakeFiles/RK2.elf.dir/src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.c.obj
+                0x08000458                SETUP_DMA_FOR_ADC
+ .text.SETUP_DMA_ADC
+                0x080004c0       0x10 CMakeFiles/RK2.elf.dir/src/DMA_ADC/setup_DMA_ADC.c.obj
+                0x080004c0                SETUP_DMA_ADC
+ .text.setup_DMA_TX
+                0x080004d0       0x2c CMakeFiles/RK2.elf.dir/src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.c.obj
+ .text.setup_DMA_RX
+                0x080004fc       0x30 CMakeFiles/RK2.elf.dir/src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.c.obj
+ .text.setup_DMA_EN
+                0x0800052c       0x24 CMakeFiles/RK2.elf.dir/src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.c.obj
+ .text.DMA1_Channel2_3_IRQHandler
+                0x08000550       0x58 CMakeFiles/RK2.elf.dir/src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.c.obj
+                0x08000550                DMA1_Channel2_3_IRQHandler
+ .text.SETUP_DMA_FOR_USART1
+                0x080005a8       0x24 CMakeFiles/RK2.elf.dir/src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.c.obj
+                0x080005a8                SETUP_DMA_FOR_USART1
+ .text.setup_USART1_GPIO
+                0x080005cc       0x1a CMakeFiles/RK2.elf.dir/src/DMA_USART1/USART1/usart1.c.obj
+ *fill*         0x080005e6        0x2 
+ .text.setup_USART1_GENERAL
+                0x080005e8       0x28 CMakeFiles/RK2.elf.dir/src/DMA_USART1/USART1/usart1.c.obj
+ .text.SETUP_USART1
+                0x08000610       0x1c CMakeFiles/RK2.elf.dir/src/DMA_USART1/USART1/usart1.c.obj
+                0x08000610                SETUP_USART1
+ .text.SETUP_DMA_USART1
+                0x0800062c       0x14 CMakeFiles/RK2.elf.dir/src/DMA_USART1/setup_DMA_USART1.c.obj
+                0x0800062c                SETUP_DMA_USART1
  .text.Reset_Handler
-                0x08000158       0x4c CMakeFiles/RK2.elf.dir/Core/Startup/startup_stm32f051r8tx.s.obj
-                0x08000158                Reset_Handler
+                0x08000640       0x4c CMakeFiles/RK2.elf.dir/src/Startup/startup_stm32f051r8tx.s.obj
+                0x08000640                Reset_Handler
  .text.Default_Handler
-                0x080001a4        0x2 CMakeFiles/RK2.elf.dir/Core/Startup/startup_stm32f051r8tx.s.obj
-                0x080001a4                TIM1_CC_IRQHandler
-                0x080001a4                TSC_IRQHandler
-                0x080001a4                HardFault_Handler
-                0x080001a4                ADC1_COMP_IRQHandler
-                0x080001a4                SysTick_Handler
-                0x080001a4                PVD_IRQHandler
-                0x080001a4                PendSV_Handler
-                0x080001a4                NMI_Handler
-                0x080001a4                I2C1_IRQHandler
-                0x080001a4                RCC_CRS_IRQHandler
-                0x080001a4                SPI1_IRQHandler
-                0x080001a4                TIM6_DAC_IRQHandler
-                0x080001a4                EXTI2_3_IRQHandler
-                0x080001a4                I2C2_IRQHandler
-                0x080001a4                TIM17_IRQHandler
-                0x080001a4                CEC_CAN_IRQHandler
-                0x080001a4                RTC_IRQHandler
-                0x080001a4                TIM16_IRQHandler
-                0x080001a4                TIM3_IRQHandler
-                0x080001a4                EXTI4_15_IRQHandler
-                0x080001a4                DMA1_Channel1_IRQHandler
-                0x080001a4                Default_Handler
-                0x080001a4                TIM14_IRQHandler
-                0x080001a4                DMA1_Channel4_5_IRQHandler
-                0x080001a4                TIM15_IRQHandler
-                0x080001a4                EXTI0_1_IRQHandler
-                0x080001a4                SPI2_IRQHandler
-                0x080001a4                SVC_Handler
-                0x080001a4                WWDG_IRQHandler
-                0x080001a4                TIM2_IRQHandler
-                0x080001a4                DMA1_Channel2_3_IRQHandler
-                0x080001a4                USART2_IRQHandler
-                0x080001a4                FLASH_IRQHandler
-                0x080001a4                USART1_IRQHandler
-                0x080001a4                TIM1_BRK_UP_TRG_COM_IRQHandler
- *fill*         0x080001a6        0x2 
- .text.main     0x080001a8       0x40 CMakeFiles/RK2.elf.dir/Core/main.c.obj
-                0x080001a8                main
+                0x0800068c        0x2 CMakeFiles/RK2.elf.dir/src/Startup/startup_stm32f051r8tx.s.obj
+                0x0800068c                TIM1_CC_IRQHandler
+                0x0800068c                TSC_IRQHandler
+                0x0800068c                HardFault_Handler
+                0x0800068c                ADC1_COMP_IRQHandler
+                0x0800068c                SysTick_Handler
+                0x0800068c                PVD_IRQHandler
+                0x0800068c                PendSV_Handler
+                0x0800068c                NMI_Handler
+                0x0800068c                I2C1_IRQHandler
+                0x0800068c                RCC_CRS_IRQHandler
+                0x0800068c                SPI1_IRQHandler
+                0x0800068c                TIM6_DAC_IRQHandler
+                0x0800068c                EXTI2_3_IRQHandler
+                0x0800068c                I2C2_IRQHandler
+                0x0800068c                TIM17_IRQHandler
+                0x0800068c                CEC_CAN_IRQHandler
+                0x0800068c                RTC_IRQHandler
+                0x0800068c                TIM16_IRQHandler
+                0x0800068c                TIM3_IRQHandler
+                0x0800068c                EXTI4_15_IRQHandler
+                0x0800068c                Default_Handler
+                0x0800068c                TIM14_IRQHandler
+                0x0800068c                DMA1_Channel4_5_IRQHandler
+                0x0800068c                TIM15_IRQHandler
+                0x0800068c                EXTI0_1_IRQHandler
+                0x0800068c                SPI2_IRQHandler
+                0x0800068c                SVC_Handler
+                0x0800068c                WWDG_IRQHandler
+                0x0800068c                TIM2_IRQHandler
+                0x0800068c                USART2_IRQHandler
+                0x0800068c                FLASH_IRQHandler
+                0x0800068c                USART1_IRQHandler
+                0x0800068c                TIM1_BRK_UP_TRG_COM_IRQHandler
+ *fill*         0x0800068e        0x2 
+ .text.SETUP_GPIO
+                0x08000690       0x3c CMakeFiles/RK2.elf.dir/src/main.c.obj
+                0x08000690                SETUP_GPIO
+ .text.SETUP_PERIPHERALS
+                0x080006cc       0x18 CMakeFiles/RK2.elf.dir/src/main.c.obj
+                0x080006cc                SETUP_PERIPHERALS
+ .text.main     0x080006e4       0x64 CMakeFiles/RK2.elf.dir/src/main.c.obj
+                0x080006e4                main
  .text.__libc_init_array
-                0x080001e8       0x48 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-init.o)
-                0x080001e8                __libc_init_array
+                0x08000748       0x48 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-init.o)
+                0x08000748                __libc_init_array
  .text.__retarget_lock_acquire_recursive
-                0x08000230        0x4 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
-                0x08000230                __retarget_lock_acquire_recursive
+                0x08000790        0x4 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
+                0x08000790                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x08000234        0x4 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
-                0x08000234                __retarget_lock_release_recursive
+                0x08000794        0x4 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
+                0x08000794                __retarget_lock_release_recursive
  .text.startup.register_fini
-                0x08000238       0x18 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-__call_atexit.o)
- .text.atexit   0x08000250       0x10 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-atexit.o)
-                0x08000250                atexit
+                0x08000798       0x18 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-__call_atexit.o)
+ .text.atexit   0x080007b0       0x10 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-atexit.o)
+                0x080007b0                atexit
  .text.__libc_fini_array
-                0x08000260       0x28 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-fini.o)
-                0x08000260                __libc_fini_array
+                0x080007c0       0x28 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-fini.o)
+                0x080007c0                __libc_fini_array
  .text.__register_exitproc
-                0x08000288       0xa8 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-__atexit.o)
-                0x08000288                __register_exitproc
+                0x080007e8       0xa8 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-__atexit.o)
+                0x080007e8                __register_exitproc
  *(.glue_7)
- .glue_7        0x08000330        0x0 linker stubs
+ .glue_7        0x08000890        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x08000330        0x0 linker stubs
+ .glue_7t       0x08000890        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x08000330        0x0 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
+ .eh_frame      0x08000890        0x0 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
  *(.init)
- .init          0x08000330        0x4 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crti.o
-                0x08000330                _init
- .init          0x08000334        0x8 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtn.o
+ .init          0x08000890        0x4 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crti.o
+                0x08000890                _init
+ .init          0x08000894        0x8 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtn.o
  *(.fini)
- .fini          0x0800033c        0x4 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crti.o
-                0x0800033c                _fini
- .fini          0x08000340        0x8 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtn.o
-                0x08000348                        . = ALIGN (0x4)
-                0x08000348                        _etext = .
+ .fini          0x0800089c        0x4 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crti.o
+                0x0800089c                _fini
+ .fini          0x080008a0        0x8 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtn.o
+                0x080008a8                        . = ALIGN (0x4)
+                0x080008a8                        _etext = .
 
-.vfp11_veneer   0x08000348        0x0
- .vfp11_veneer  0x08000348        0x0 linker stubs
+.vfp11_veneer   0x080008a8        0x0
+ .vfp11_veneer  0x080008a8        0x0 linker stubs
 
-.v4_bx          0x08000348        0x0
- .v4_bx         0x08000348        0x0 linker stubs
+.v4_bx          0x080008a8        0x0
+ .v4_bx         0x080008a8        0x0 linker stubs
 
-.iplt           0x08000348        0x0
- .iplt          0x08000348        0x0 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x080008a8        0x0
+ .iplt          0x080008a8        0x0 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
 
-.rel.dyn        0x08000348        0x0
- .rel.iplt      0x08000348        0x0 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
+.rel.dyn        0x080008a8        0x0
+ .rel.iplt      0x080008a8        0x0 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x08000348        0x0
-                0x08000348                        . = ALIGN (0x4)
+.rodata         0x080008a8        0x0
+                0x080008a8                        . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
-                0x08000348                        . = ALIGN (0x4)
+                0x080008a8                        . = ALIGN (0x4)
 
-.ARM.extab      0x08000348        0x0
-                0x08000348                        . = ALIGN (0x4)
+.ARM.extab      0x080008a8        0x0
+                0x080008a8                        . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x08000348                        . = ALIGN (0x4)
+                0x080008a8                        . = ALIGN (0x4)
 
-.ARM            0x08000348        0x0
-                0x08000348                        . = ALIGN (0x4)
-                0x08000348                        __exidx_start = .
+.ARM            0x080008a8        0x0
+                0x080008a8                        . = ALIGN (0x4)
+                0x080008a8                        __exidx_start = .
  *(.ARM.exidx*)
-                0x08000348                        __exidx_end = .
-                0x08000348                        . = ALIGN (0x4)
+                0x080008a8                        __exidx_end = .
+                0x080008a8                        . = ALIGN (0x4)
 
-.preinit_array  0x08000348        0x0
-                0x08000348                        . = ALIGN (0x4)
-                0x08000348                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x080008a8        0x0
+                0x080008a8                        . = ALIGN (0x4)
+                0x080008a8                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x08000348                        PROVIDE (__preinit_array_end = .)
-                0x08000348                        . = ALIGN (0x4)
+                0x080008a8                        PROVIDE (__preinit_array_end = .)
+                0x080008a8                        . = ALIGN (0x4)
 
-.init_array     0x08000348        0x8
-                0x08000348                        . = ALIGN (0x4)
-                0x08000348                        PROVIDE (__init_array_start = .)
+.init_array     0x080008a8        0x8
+                0x080008a8                        . = ALIGN (0x4)
+                0x080008a8                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  .init_array.00000
-                0x08000348        0x4 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-__call_atexit.o)
+                0x080008a8        0x4 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-__call_atexit.o)
  *(.init_array*)
- .init_array    0x0800034c        0x4 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
-                0x08000350                        PROVIDE (__init_array_end = .)
-                0x08000350                        . = ALIGN (0x4)
+ .init_array    0x080008ac        0x4 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
+                0x080008b0                        PROVIDE (__init_array_end = .)
+                0x080008b0                        . = ALIGN (0x4)
 
-.fini_array     0x08000350        0x4
-                0x08000350                        . = ALIGN (0x4)
-                0x08000350                        PROVIDE (__fini_array_start = .)
+.fini_array     0x080008b0        0x4
+                0x080008b0                        . = ALIGN (0x4)
+                0x080008b0                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x08000350        0x4 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
-                0x08000354                        PROVIDE (__fini_array_end = .)
-                0x08000354                        . = ALIGN (0x4)
-                0x08000354                        _sidata = LOADADDR (.data)
+ .fini_array    0x080008b0        0x4 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
+                0x080008b4                        PROVIDE (__fini_array_end = .)
+                0x080008b4                        . = ALIGN (0x4)
+                0x080008b4                        _sidata = LOADADDR (.data)
 
-.data           0x20000000        0x4 load address 0x08000354
+.data           0x20000000        0x4 load address 0x080008b4
                 0x20000000                        . = ALIGN (0x4)
                 0x20000000                        _sdata = .
  *(.data)
@@ -549,17 +638,17 @@ LOAD c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb
                 0x20000004                        _edata = .
 
 .tm_clone_table
-                0x20000004        0x0 load address 0x08000358
+                0x20000004        0x0 load address 0x080008b8
  .tm_clone_table
                 0x20000004        0x0 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
  .tm_clone_table
                 0x20000004        0x0 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtend.o
 
-.igot.plt       0x20000004        0x0 load address 0x08000358
+.igot.plt       0x20000004        0x0 load address 0x080008b8
  .igot.plt      0x20000004        0x0 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
                 0x20000004                        . = ALIGN (0x4)
 
-.bss            0x20000004      0x1b4 load address 0x08000358
+.bss            0x20000004      0x1b8 load address 0x080008b8
                 0x20000004                        _sbss = .
                 0x20000004                        __bss_start__ = _sbss
  *(.bss)
@@ -568,30 +657,38 @@ LOAD c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb
                 0x20000004        0x1 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
  *fill*         0x20000005        0x3 
  .bss.object.0  0x20000008       0x18 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
+ .bss.ADC_TRANSMISSION_ENDED
+                0x20000020        0x1 CMakeFiles/RK2.elf.dir/src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.c.obj
+                0x20000020                ADC_TRANSMISSION_ENDED
+ .bss.COMMAND_RECEIVED_VIA_USART
+                0x20000021        0x1 CMakeFiles/RK2.elf.dir/src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.c.obj
+                0x20000021                COMMAND_RECEIVED_VIA_USART
+ *fill*         0x20000022        0x2 
  .bss.__lock___atexit_recursive_mutex
-                0x20000020        0x1 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
-                0x20000020                __lock___atexit_recursive_mutex
- *fill*         0x20000021        0x3 
- .bss.__atexit  0x20000024        0x4 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-__call_atexit.o)
-                0x20000024                __atexit
+                0x20000024        0x1 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
+                0x20000024                __lock___atexit_recursive_mutex
+ *fill*         0x20000025        0x3 
+ .bss.__atexit  0x20000028        0x4 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-__call_atexit.o)
+                0x20000028                __atexit
  .bss.__atexit0
-                0x20000028      0x190 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-__atexit.o)
-                0x20000028                __atexit0
+                0x2000002c      0x190 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-__atexit.o)
+                0x2000002c                __atexit0
  *(COMMON)
-                0x200001b8                        . = ALIGN (0x4)
-                0x200001b8                        _ebss = .
-                0x200001b8                        __bss_end__ = _ebss
+                0x200001bc                        . = ALIGN (0x4)
+                0x200001bc                        _ebss = .
+                0x200001bc                        __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x200001b8      0x600 load address 0x08000358
-                0x200001b8                        . = ALIGN (0x8)
+                0x200001bc      0x604 load address 0x080008b8
+                0x200001c0                        . = ALIGN (0x8)
+ *fill*         0x200001bc        0x4 
                 [!provide]                        PROVIDE (end = .)
                 [!provide]                        PROVIDE (_end = .)
-                0x200003b8                        . = (. + _Min_Heap_Size)
- *fill*         0x200001b8      0x200 
-                0x200007b8                        . = (. + _Min_Stack_Size)
- *fill*         0x200003b8      0x400 
-                0x200007b8                        . = ALIGN (0x8)
+                0x200003c0                        . = (. + _Min_Heap_Size)
+ *fill*         0x200001c0      0x200 
+                0x200007c0                        . = (. + _Min_Stack_Size)
+ *fill*         0x200003c0      0x400 
+                0x200007c0                        . = ALIGN (0x8)
 
 /DISCARD/
  libc.a(*)
@@ -606,80 +703,182 @@ LOAD c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb
  .ARM.attributes
                 0x0000001e       0x2c c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtbegin.o
  .ARM.attributes
-                0x0000004a       0x21 CMakeFiles/RK2.elf.dir/Core/Startup/startup_stm32f051r8tx.s.obj
+                0x0000004a       0x2c CMakeFiles/RK2.elf.dir/src/COMMAND_RESOLVE/command.c.obj
  .ARM.attributes
-                0x0000006b       0x2c CMakeFiles/RK2.elf.dir/Core/main.c.obj
+                0x00000076       0x2c CMakeFiles/RK2.elf.dir/src/DMA_ADC/ADC/adc.c.obj
  .ARM.attributes
-                0x00000097       0x2c c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-init.o)
+                0x000000a2       0x2c CMakeFiles/RK2.elf.dir/src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.c.obj
  .ARM.attributes
-                0x000000c3       0x2c c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
+                0x000000ce       0x2c CMakeFiles/RK2.elf.dir/src/DMA_ADC/setup_DMA_ADC.c.obj
  .ARM.attributes
-                0x000000ef       0x2c c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-__call_atexit.o)
+                0x000000fa       0x2c CMakeFiles/RK2.elf.dir/src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.c.obj
  .ARM.attributes
-                0x0000011b       0x2c c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-atexit.o)
+                0x00000126       0x2c CMakeFiles/RK2.elf.dir/src/DMA_USART1/USART1/usart1.c.obj
  .ARM.attributes
-                0x00000147       0x2c c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-fini.o)
+                0x00000152       0x2c CMakeFiles/RK2.elf.dir/src/DMA_USART1/setup_DMA_USART1.c.obj
  .ARM.attributes
-                0x00000173       0x2c c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-__atexit.o)
+                0x0000017e       0x21 CMakeFiles/RK2.elf.dir/src/Startup/startup_stm32f051r8tx.s.obj
  .ARM.attributes
-                0x0000019f       0x2c c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtend.o
+                0x0000019f       0x2c CMakeFiles/RK2.elf.dir/src/main.c.obj
  .ARM.attributes
-                0x000001cb       0x1e c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtn.o
+                0x000001cb       0x2c c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-init.o)
+ .ARM.attributes
+                0x000001f7       0x2c c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
+ .ARM.attributes
+                0x00000223       0x2c c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-__call_atexit.o)
+ .ARM.attributes
+                0x0000024f       0x2c c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-atexit.o)
+ .ARM.attributes
+                0x0000027b       0x2c c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-fini.o)
+ .ARM.attributes
+                0x000002a7       0x2c c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-__atexit.o)
+ .ARM.attributes
+                0x000002d3       0x2c c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtend.o
+ .ARM.attributes
+                0x000002ff       0x1e c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp/crtn.o
 OUTPUT(RK2.elf elf32-littlearm)
 LOAD linker stubs
 LOAD c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libc.a
 LOAD c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libm.a
 LOAD c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libgcc.a
 
-.debug_line     0x00000000      0x241
- .debug_line    0x00000000       0x7a CMakeFiles/RK2.elf.dir/Core/Startup/startup_stm32f051r8tx.s.obj
- .debug_line    0x0000007a      0x1c7 CMakeFiles/RK2.elf.dir/Core/main.c.obj
+.debug_info     0x00000000     0x222c
+ .debug_info    0x00000000      0x631 CMakeFiles/RK2.elf.dir/src/COMMAND_RESOLVE/command.c.obj
+ .debug_info    0x00000631      0x43a CMakeFiles/RK2.elf.dir/src/DMA_ADC/ADC/adc.c.obj
+ .debug_info    0x00000a6b      0x61d CMakeFiles/RK2.elf.dir/src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.c.obj
+ .debug_info    0x00001088       0xea CMakeFiles/RK2.elf.dir/src/DMA_ADC/setup_DMA_ADC.c.obj
+ .debug_info    0x00001172      0x6f2 CMakeFiles/RK2.elf.dir/src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.c.obj
+ .debug_info    0x00001864      0x310 CMakeFiles/RK2.elf.dir/src/DMA_USART1/USART1/usart1.c.obj
+ .debug_info    0x00001b74      0x105 CMakeFiles/RK2.elf.dir/src/DMA_USART1/setup_DMA_USART1.c.obj
+ .debug_info    0x00001c79       0x30 CMakeFiles/RK2.elf.dir/src/Startup/startup_stm32f051r8tx.s.obj
+ .debug_info    0x00001ca9      0x583 CMakeFiles/RK2.elf.dir/src/main.c.obj
 
-.debug_line_str
-                0x00000000       0xc3
- .debug_line_str
-                0x00000000       0xc3 CMakeFiles/RK2.elf.dir/Core/Startup/startup_stm32f051r8tx.s.obj
-
-.debug_info     0x00000000      0x245
- .debug_info    0x00000000       0x30 CMakeFiles/RK2.elf.dir/Core/Startup/startup_stm32f051r8tx.s.obj
- .debug_info    0x00000030      0x215 CMakeFiles/RK2.elf.dir/Core/main.c.obj
-
-.debug_abbrev   0x00000000       0xf4
- .debug_abbrev  0x00000000       0x24 CMakeFiles/RK2.elf.dir/Core/Startup/startup_stm32f051r8tx.s.obj
- .debug_abbrev  0x00000024       0xd0 CMakeFiles/RK2.elf.dir/Core/main.c.obj
-
-.debug_aranges  0x00000000       0x48
- .debug_aranges
-                0x00000000       0x28 CMakeFiles/RK2.elf.dir/Core/Startup/startup_stm32f051r8tx.s.obj
- .debug_aranges
-                0x00000028       0x20 CMakeFiles/RK2.elf.dir/Core/main.c.obj
-
-.debug_str      0x00000000      0x2d1
- .debug_str     0x00000000       0xdf CMakeFiles/RK2.elf.dir/Core/Startup/startup_stm32f051r8tx.s.obj
- .debug_str     0x000000df      0x1f2 CMakeFiles/RK2.elf.dir/Core/main.c.obj
-                                0x287 (size before relaxing)
-
-.debug_rnglists
-                0x00000000       0x38
- .debug_rnglists
-                0x00000000       0x19 CMakeFiles/RK2.elf.dir/Core/Startup/startup_stm32f051r8tx.s.obj
- .debug_rnglists
-                0x00000019       0x1f CMakeFiles/RK2.elf.dir/Core/main.c.obj
+.debug_abbrev   0x00000000      0xb64
+ .debug_abbrev  0x00000000      0x1c7 CMakeFiles/RK2.elf.dir/src/COMMAND_RESOLVE/command.c.obj
+ .debug_abbrev  0x000001c7      0x123 CMakeFiles/RK2.elf.dir/src/DMA_ADC/ADC/adc.c.obj
+ .debug_abbrev  0x000002ea      0x1fb CMakeFiles/RK2.elf.dir/src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.c.obj
+ .debug_abbrev  0x000004e5       0xc0 CMakeFiles/RK2.elf.dir/src/DMA_ADC/setup_DMA_ADC.c.obj
+ .debug_abbrev  0x000005a5      0x25f CMakeFiles/RK2.elf.dir/src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.c.obj
+ .debug_abbrev  0x00000804       0xd6 CMakeFiles/RK2.elf.dir/src/DMA_USART1/USART1/usart1.c.obj
+ .debug_abbrev  0x000008da       0xc2 CMakeFiles/RK2.elf.dir/src/DMA_USART1/setup_DMA_USART1.c.obj
+ .debug_abbrev  0x0000099c       0x24 CMakeFiles/RK2.elf.dir/src/Startup/startup_stm32f051r8tx.s.obj
+ .debug_abbrev  0x000009c0      0x1a4 CMakeFiles/RK2.elf.dir/src/main.c.obj
 
 .debug_loclists
-                0x00000000       0x21
+                0x00000000      0x258
  .debug_loclists
-                0x00000000       0x21 CMakeFiles/RK2.elf.dir/Core/main.c.obj
+                0x00000000      0x110 CMakeFiles/RK2.elf.dir/src/COMMAND_RESOLVE/command.c.obj
+ .debug_loclists
+                0x00000110       0x47 CMakeFiles/RK2.elf.dir/src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.c.obj
+ .debug_loclists
+                0x00000157       0x2a CMakeFiles/RK2.elf.dir/src/DMA_ADC/setup_DMA_ADC.c.obj
+ .debug_loclists
+                0x00000181       0x65 CMakeFiles/RK2.elf.dir/src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.c.obj
+ .debug_loclists
+                0x000001e6       0x48 CMakeFiles/RK2.elf.dir/src/DMA_USART1/setup_DMA_USART1.c.obj
+ .debug_loclists
+                0x0000022e       0x2a CMakeFiles/RK2.elf.dir/src/main.c.obj
+
+.debug_aranges  0x00000000      0x1b0
+ .debug_aranges
+                0x00000000       0x38 CMakeFiles/RK2.elf.dir/src/COMMAND_RESOLVE/command.c.obj
+ .debug_aranges
+                0x00000038       0x48 CMakeFiles/RK2.elf.dir/src/DMA_ADC/ADC/adc.c.obj
+ .debug_aranges
+                0x00000080       0x28 CMakeFiles/RK2.elf.dir/src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.c.obj
+ .debug_aranges
+                0x000000a8       0x20 CMakeFiles/RK2.elf.dir/src/DMA_ADC/setup_DMA_ADC.c.obj
+ .debug_aranges
+                0x000000c8       0x40 CMakeFiles/RK2.elf.dir/src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.c.obj
+ .debug_aranges
+                0x00000108       0x30 CMakeFiles/RK2.elf.dir/src/DMA_USART1/USART1/usart1.c.obj
+ .debug_aranges
+                0x00000138       0x20 CMakeFiles/RK2.elf.dir/src/DMA_USART1/setup_DMA_USART1.c.obj
+ .debug_aranges
+                0x00000158       0x28 CMakeFiles/RK2.elf.dir/src/Startup/startup_stm32f051r8tx.s.obj
+ .debug_aranges
+                0x00000180       0x30 CMakeFiles/RK2.elf.dir/src/main.c.obj
+
+.debug_rnglists
+                0x00000000      0x131
+ .debug_rnglists
+                0x00000000       0x3f CMakeFiles/RK2.elf.dir/src/COMMAND_RESOLVE/command.c.obj
+ .debug_rnglists
+                0x0000003f       0x31 CMakeFiles/RK2.elf.dir/src/DMA_ADC/ADC/adc.c.obj
+ .debug_rnglists
+                0x00000070       0x19 CMakeFiles/RK2.elf.dir/src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.c.obj
+ .debug_rnglists
+                0x00000089       0x13 CMakeFiles/RK2.elf.dir/src/DMA_ADC/setup_DMA_ADC.c.obj
+ .debug_rnglists
+                0x0000009c       0x2b CMakeFiles/RK2.elf.dir/src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.c.obj
+ .debug_rnglists
+                0x000000c7       0x1f CMakeFiles/RK2.elf.dir/src/DMA_USART1/USART1/usart1.c.obj
+ .debug_rnglists
+                0x000000e6       0x13 CMakeFiles/RK2.elf.dir/src/DMA_USART1/setup_DMA_USART1.c.obj
+ .debug_rnglists
+                0x000000f9       0x19 CMakeFiles/RK2.elf.dir/src/Startup/startup_stm32f051r8tx.s.obj
+ .debug_rnglists
+                0x00000112       0x1f CMakeFiles/RK2.elf.dir/src/main.c.obj
+
+.debug_line     0x00000000     0x1754
+ .debug_line    0x00000000      0x457 CMakeFiles/RK2.elf.dir/src/COMMAND_RESOLVE/command.c.obj
+ .debug_line    0x00000457      0x2eb CMakeFiles/RK2.elf.dir/src/DMA_ADC/ADC/adc.c.obj
+ .debug_line    0x00000742      0x2ac CMakeFiles/RK2.elf.dir/src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.c.obj
+ .debug_line    0x000009ee      0x208 CMakeFiles/RK2.elf.dir/src/DMA_ADC/setup_DMA_ADC.c.obj
+ .debug_line    0x00000bf6      0x363 CMakeFiles/RK2.elf.dir/src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.c.obj
+ .debug_line    0x00000f59      0x20a CMakeFiles/RK2.elf.dir/src/DMA_USART1/USART1/usart1.c.obj
+ .debug_line    0x00001163      0x220 CMakeFiles/RK2.elf.dir/src/DMA_USART1/setup_DMA_USART1.c.obj
+ .debug_line    0x00001383       0x7a CMakeFiles/RK2.elf.dir/src/Startup/startup_stm32f051r8tx.s.obj
+ .debug_line    0x000013fd      0x357 CMakeFiles/RK2.elf.dir/src/main.c.obj
+
+.debug_str      0x00000000      0xbef
+ .debug_str     0x00000000      0x480 CMakeFiles/RK2.elf.dir/src/COMMAND_RESOLVE/command.c.obj
+                                0x532 (size before relaxing)
+ .debug_str     0x00000480      0x10e CMakeFiles/RK2.elf.dir/src/DMA_ADC/ADC/adc.c.obj
+                                0x37c (size before relaxing)
+ .debug_str     0x0000058e      0x2de CMakeFiles/RK2.elf.dir/src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.c.obj
+                                0x595 (size before relaxing)
+ .debug_str     0x0000086c       0x70 CMakeFiles/RK2.elf.dir/src/DMA_ADC/setup_DMA_ADC.c.obj
+                                0x23c (size before relaxing)
+ .debug_str     0x000008dc       0xf8 CMakeFiles/RK2.elf.dir/src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.c.obj
+                                0x5e9 (size before relaxing)
+ .debug_str     0x000009d4       0x99 CMakeFiles/RK2.elf.dir/src/DMA_USART1/USART1/usart1.c.obj
+                                0x309 (size before relaxing)
+ .debug_str     0x00000a6d       0x79 CMakeFiles/RK2.elf.dir/src/DMA_USART1/setup_DMA_USART1.c.obj
+                                0x258 (size before relaxing)
+ .debug_str     0x00000ae6       0x86 CMakeFiles/RK2.elf.dir/src/Startup/startup_stm32f051r8tx.s.obj
+                                 0xde (size before relaxing)
+ .debug_str     0x00000b6c       0x83 CMakeFiles/RK2.elf.dir/src/main.c.obj
+                                0x487 (size before relaxing)
 
 .comment        0x00000000       0x55
- .comment       0x00000000       0x55 CMakeFiles/RK2.elf.dir/Core/main.c.obj
+ .comment       0x00000000       0x55 CMakeFiles/RK2.elf.dir/src/COMMAND_RESOLVE/command.c.obj
                                  0x56 (size before relaxing)
+ .comment       0x00000055       0x56 CMakeFiles/RK2.elf.dir/src/DMA_ADC/ADC/adc.c.obj
+ .comment       0x00000055       0x56 CMakeFiles/RK2.elf.dir/src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.c.obj
+ .comment       0x00000055       0x56 CMakeFiles/RK2.elf.dir/src/DMA_ADC/setup_DMA_ADC.c.obj
+ .comment       0x00000055       0x56 CMakeFiles/RK2.elf.dir/src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.c.obj
+ .comment       0x00000055       0x56 CMakeFiles/RK2.elf.dir/src/DMA_USART1/USART1/usart1.c.obj
+ .comment       0x00000055       0x56 CMakeFiles/RK2.elf.dir/src/DMA_USART1/setup_DMA_USART1.c.obj
+ .comment       0x00000055       0x56 CMakeFiles/RK2.elf.dir/src/main.c.obj
 
-.debug_frame    0x00000000      0x1dc
- .debug_frame   0x00000000       0x20 CMakeFiles/RK2.elf.dir/Core/main.c.obj
- .debug_frame   0x00000020       0x2c c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-init.o)
- .debug_frame   0x0000004c       0xb0 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
- .debug_frame   0x000000fc       0x54 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-__call_atexit.o)
- .debug_frame   0x00000150       0x28 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-atexit.o)
- .debug_frame   0x00000178       0x2c c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-fini.o)
- .debug_frame   0x000001a4       0x38 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-__atexit.o)
+.debug_frame    0x00000000      0x424
+ .debug_frame   0x00000000       0x60 CMakeFiles/RK2.elf.dir/src/COMMAND_RESOLVE/command.c.obj
+ .debug_frame   0x00000060       0x78 CMakeFiles/RK2.elf.dir/src/DMA_ADC/ADC/adc.c.obj
+ .debug_frame   0x000000d8       0x3c CMakeFiles/RK2.elf.dir/src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.c.obj
+ .debug_frame   0x00000114       0x28 CMakeFiles/RK2.elf.dir/src/DMA_ADC/setup_DMA_ADC.c.obj
+ .debug_frame   0x0000013c       0x68 CMakeFiles/RK2.elf.dir/src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.c.obj
+ .debug_frame   0x000001a4       0x48 CMakeFiles/RK2.elf.dir/src/DMA_USART1/USART1/usart1.c.obj
+ .debug_frame   0x000001ec       0x2c CMakeFiles/RK2.elf.dir/src/DMA_USART1/setup_DMA_USART1.c.obj
+ .debug_frame   0x00000218       0x50 CMakeFiles/RK2.elf.dir/src/main.c.obj
+ .debug_frame   0x00000268       0x2c c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-init.o)
+ .debug_frame   0x00000294       0xb0 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
+ .debug_frame   0x00000344       0x54 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-__call_atexit.o)
+ .debug_frame   0x00000398       0x28 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-atexit.o)
+ .debug_frame   0x000003c0       0x2c c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-fini.o)
+ .debug_frame   0x000003ec       0x38 c:/progra~2/armgnu~1/12977f~1.2mp/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v6-m/nofp\libg.a(libc_a-__atexit.o)
+
+.debug_line_str
+                0x00000000       0xc2
+ .debug_line_str
+                0x00000000       0xc2 CMakeFiles/RK2.elf.dir/src/Startup/startup_stm32f051r8tx.s.obj

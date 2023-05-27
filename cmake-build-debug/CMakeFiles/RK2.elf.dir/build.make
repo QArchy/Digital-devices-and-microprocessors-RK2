@@ -68,46 +68,158 @@ include CMakeFiles/RK2.elf.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/RK2.elf.dir/flags.make
 
-CMakeFiles/RK2.elf.dir/Core/Startup/startup_stm32f051r8tx.s.obj: CMakeFiles/RK2.elf.dir/flags.make
-CMakeFiles/RK2.elf.dir/Core/Startup/startup_stm32f051r8tx.s.obj: C:/Users/xyarc/YandexDisk/Byz/Digital\ devices\ and\ microprocessors/RK2/Core/Startup/startup_stm32f051r8tx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\xyarc\YandexDisk\Byz\Digital devices and microprocessors\RK2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building ASM object CMakeFiles/RK2.elf.dir/Core/Startup/startup_stm32f051r8tx.s.obj"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\RK2.elf.dir\Core\Startup\startup_stm32f051r8tx.s.obj -c "C:\Users\xyarc\YandexDisk\Byz\Digital devices and microprocessors\RK2\Core\Startup\startup_stm32f051r8tx.s"
+CMakeFiles/RK2.elf.dir/src/COMMAND_RESOLVE/command.c.obj: CMakeFiles/RK2.elf.dir/flags.make
+CMakeFiles/RK2.elf.dir/src/COMMAND_RESOLVE/command.c.obj: C:/Users/xyarc/YandexDisk/Byz/Digital\ devices\ and\ microprocessors/RK2/src/COMMAND_RESOLVE/command.c
+CMakeFiles/RK2.elf.dir/src/COMMAND_RESOLVE/command.c.obj: CMakeFiles/RK2.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\xyarc\YandexDisk\Byz\Digital devices and microprocessors\RK2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/RK2.elf.dir/src/COMMAND_RESOLVE/command.c.obj"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/RK2.elf.dir/src/COMMAND_RESOLVE/command.c.obj -MF CMakeFiles\RK2.elf.dir\src\COMMAND_RESOLVE\command.c.obj.d -o CMakeFiles\RK2.elf.dir\src\COMMAND_RESOLVE\command.c.obj -c "C:\Users\xyarc\YandexDisk\Byz\Digital devices and microprocessors\RK2\src\COMMAND_RESOLVE\command.c"
 
-CMakeFiles/RK2.elf.dir/Core/Startup/startup_stm32f051r8tx.s.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/RK2.elf.dir/Core/Startup/startup_stm32f051r8tx.s.i"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E "C:\Users\xyarc\YandexDisk\Byz\Digital devices and microprocessors\RK2\Core\Startup\startup_stm32f051r8tx.s" > CMakeFiles\RK2.elf.dir\Core\Startup\startup_stm32f051r8tx.s.i
+CMakeFiles/RK2.elf.dir/src/COMMAND_RESOLVE/command.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RK2.elf.dir/src/COMMAND_RESOLVE/command.c.i"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\xyarc\YandexDisk\Byz\Digital devices and microprocessors\RK2\src\COMMAND_RESOLVE\command.c" > CMakeFiles\RK2.elf.dir\src\COMMAND_RESOLVE\command.c.i
 
-CMakeFiles/RK2.elf.dir/Core/Startup/startup_stm32f051r8tx.s.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/RK2.elf.dir/Core/Startup/startup_stm32f051r8tx.s.s"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S "C:\Users\xyarc\YandexDisk\Byz\Digital devices and microprocessors\RK2\Core\Startup\startup_stm32f051r8tx.s" -o CMakeFiles\RK2.elf.dir\Core\Startup\startup_stm32f051r8tx.s.s
+CMakeFiles/RK2.elf.dir/src/COMMAND_RESOLVE/command.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RK2.elf.dir/src/COMMAND_RESOLVE/command.c.s"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\xyarc\YandexDisk\Byz\Digital devices and microprocessors\RK2\src\COMMAND_RESOLVE\command.c" -o CMakeFiles\RK2.elf.dir\src\COMMAND_RESOLVE\command.c.s
 
-CMakeFiles/RK2.elf.dir/Core/main.c.obj: CMakeFiles/RK2.elf.dir/flags.make
-CMakeFiles/RK2.elf.dir/Core/main.c.obj: C:/Users/xyarc/YandexDisk/Byz/Digital\ devices\ and\ microprocessors/RK2/Core/main.c
-CMakeFiles/RK2.elf.dir/Core/main.c.obj: CMakeFiles/RK2.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\xyarc\YandexDisk\Byz\Digital devices and microprocessors\RK2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/RK2.elf.dir/Core/main.c.obj"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/RK2.elf.dir/Core/main.c.obj -MF CMakeFiles\RK2.elf.dir\Core\main.c.obj.d -o CMakeFiles\RK2.elf.dir\Core\main.c.obj -c "C:\Users\xyarc\YandexDisk\Byz\Digital devices and microprocessors\RK2\Core\main.c"
+CMakeFiles/RK2.elf.dir/src/DMA_ADC/ADC/adc.c.obj: CMakeFiles/RK2.elf.dir/flags.make
+CMakeFiles/RK2.elf.dir/src/DMA_ADC/ADC/adc.c.obj: C:/Users/xyarc/YandexDisk/Byz/Digital\ devices\ and\ microprocessors/RK2/src/DMA_ADC/ADC/adc.c
+CMakeFiles/RK2.elf.dir/src/DMA_ADC/ADC/adc.c.obj: CMakeFiles/RK2.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\xyarc\YandexDisk\Byz\Digital devices and microprocessors\RK2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/RK2.elf.dir/src/DMA_ADC/ADC/adc.c.obj"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/RK2.elf.dir/src/DMA_ADC/ADC/adc.c.obj -MF CMakeFiles\RK2.elf.dir\src\DMA_ADC\ADC\adc.c.obj.d -o CMakeFiles\RK2.elf.dir\src\DMA_ADC\ADC\adc.c.obj -c "C:\Users\xyarc\YandexDisk\Byz\Digital devices and microprocessors\RK2\src\DMA_ADC\ADC\adc.c"
 
-CMakeFiles/RK2.elf.dir/Core/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RK2.elf.dir/Core/main.c.i"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\xyarc\YandexDisk\Byz\Digital devices and microprocessors\RK2\Core\main.c" > CMakeFiles\RK2.elf.dir\Core\main.c.i
+CMakeFiles/RK2.elf.dir/src/DMA_ADC/ADC/adc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RK2.elf.dir/src/DMA_ADC/ADC/adc.c.i"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\xyarc\YandexDisk\Byz\Digital devices and microprocessors\RK2\src\DMA_ADC\ADC\adc.c" > CMakeFiles\RK2.elf.dir\src\DMA_ADC\ADC\adc.c.i
 
-CMakeFiles/RK2.elf.dir/Core/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RK2.elf.dir/Core/main.c.s"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\xyarc\YandexDisk\Byz\Digital devices and microprocessors\RK2\Core\main.c" -o CMakeFiles\RK2.elf.dir\Core\main.c.s
+CMakeFiles/RK2.elf.dir/src/DMA_ADC/ADC/adc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RK2.elf.dir/src/DMA_ADC/ADC/adc.c.s"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\xyarc\YandexDisk\Byz\Digital devices and microprocessors\RK2\src\DMA_ADC\ADC\adc.c" -o CMakeFiles\RK2.elf.dir\src\DMA_ADC\ADC\adc.c.s
+
+CMakeFiles/RK2.elf.dir/src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.c.obj: CMakeFiles/RK2.elf.dir/flags.make
+CMakeFiles/RK2.elf.dir/src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.c.obj: C:/Users/xyarc/YandexDisk/Byz/Digital\ devices\ and\ microprocessors/RK2/src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.c
+CMakeFiles/RK2.elf.dir/src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.c.obj: CMakeFiles/RK2.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\xyarc\YandexDisk\Byz\Digital devices and microprocessors\RK2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/RK2.elf.dir/src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.c.obj"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/RK2.elf.dir/src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.c.obj -MF CMakeFiles\RK2.elf.dir\src\DMA_ADC\DMA_FOR_ADC\dma_for_adc.c.obj.d -o CMakeFiles\RK2.elf.dir\src\DMA_ADC\DMA_FOR_ADC\dma_for_adc.c.obj -c "C:\Users\xyarc\YandexDisk\Byz\Digital devices and microprocessors\RK2\src\DMA_ADC\DMA_FOR_ADC\dma_for_adc.c"
+
+CMakeFiles/RK2.elf.dir/src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RK2.elf.dir/src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.c.i"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\xyarc\YandexDisk\Byz\Digital devices and microprocessors\RK2\src\DMA_ADC\DMA_FOR_ADC\dma_for_adc.c" > CMakeFiles\RK2.elf.dir\src\DMA_ADC\DMA_FOR_ADC\dma_for_adc.c.i
+
+CMakeFiles/RK2.elf.dir/src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RK2.elf.dir/src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.c.s"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\xyarc\YandexDisk\Byz\Digital devices and microprocessors\RK2\src\DMA_ADC\DMA_FOR_ADC\dma_for_adc.c" -o CMakeFiles\RK2.elf.dir\src\DMA_ADC\DMA_FOR_ADC\dma_for_adc.c.s
+
+CMakeFiles/RK2.elf.dir/src/DMA_ADC/setup_DMA_ADC.c.obj: CMakeFiles/RK2.elf.dir/flags.make
+CMakeFiles/RK2.elf.dir/src/DMA_ADC/setup_DMA_ADC.c.obj: C:/Users/xyarc/YandexDisk/Byz/Digital\ devices\ and\ microprocessors/RK2/src/DMA_ADC/setup_DMA_ADC.c
+CMakeFiles/RK2.elf.dir/src/DMA_ADC/setup_DMA_ADC.c.obj: CMakeFiles/RK2.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\xyarc\YandexDisk\Byz\Digital devices and microprocessors\RK2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/RK2.elf.dir/src/DMA_ADC/setup_DMA_ADC.c.obj"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/RK2.elf.dir/src/DMA_ADC/setup_DMA_ADC.c.obj -MF CMakeFiles\RK2.elf.dir\src\DMA_ADC\setup_DMA_ADC.c.obj.d -o CMakeFiles\RK2.elf.dir\src\DMA_ADC\setup_DMA_ADC.c.obj -c "C:\Users\xyarc\YandexDisk\Byz\Digital devices and microprocessors\RK2\src\DMA_ADC\setup_DMA_ADC.c"
+
+CMakeFiles/RK2.elf.dir/src/DMA_ADC/setup_DMA_ADC.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RK2.elf.dir/src/DMA_ADC/setup_DMA_ADC.c.i"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\xyarc\YandexDisk\Byz\Digital devices and microprocessors\RK2\src\DMA_ADC\setup_DMA_ADC.c" > CMakeFiles\RK2.elf.dir\src\DMA_ADC\setup_DMA_ADC.c.i
+
+CMakeFiles/RK2.elf.dir/src/DMA_ADC/setup_DMA_ADC.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RK2.elf.dir/src/DMA_ADC/setup_DMA_ADC.c.s"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\xyarc\YandexDisk\Byz\Digital devices and microprocessors\RK2\src\DMA_ADC\setup_DMA_ADC.c" -o CMakeFiles\RK2.elf.dir\src\DMA_ADC\setup_DMA_ADC.c.s
+
+CMakeFiles/RK2.elf.dir/src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.c.obj: CMakeFiles/RK2.elf.dir/flags.make
+CMakeFiles/RK2.elf.dir/src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.c.obj: C:/Users/xyarc/YandexDisk/Byz/Digital\ devices\ and\ microprocessors/RK2/src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.c
+CMakeFiles/RK2.elf.dir/src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.c.obj: CMakeFiles/RK2.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\xyarc\YandexDisk\Byz\Digital devices and microprocessors\RK2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/RK2.elf.dir/src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.c.obj"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/RK2.elf.dir/src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.c.obj -MF CMakeFiles\RK2.elf.dir\src\DMA_USART1\DMA_FOR_USART1\dma_for_usart1.c.obj.d -o CMakeFiles\RK2.elf.dir\src\DMA_USART1\DMA_FOR_USART1\dma_for_usart1.c.obj -c "C:\Users\xyarc\YandexDisk\Byz\Digital devices and microprocessors\RK2\src\DMA_USART1\DMA_FOR_USART1\dma_for_usart1.c"
+
+CMakeFiles/RK2.elf.dir/src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RK2.elf.dir/src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.c.i"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\xyarc\YandexDisk\Byz\Digital devices and microprocessors\RK2\src\DMA_USART1\DMA_FOR_USART1\dma_for_usart1.c" > CMakeFiles\RK2.elf.dir\src\DMA_USART1\DMA_FOR_USART1\dma_for_usart1.c.i
+
+CMakeFiles/RK2.elf.dir/src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RK2.elf.dir/src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.c.s"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\xyarc\YandexDisk\Byz\Digital devices and microprocessors\RK2\src\DMA_USART1\DMA_FOR_USART1\dma_for_usart1.c" -o CMakeFiles\RK2.elf.dir\src\DMA_USART1\DMA_FOR_USART1\dma_for_usart1.c.s
+
+CMakeFiles/RK2.elf.dir/src/DMA_USART1/USART1/usart1.c.obj: CMakeFiles/RK2.elf.dir/flags.make
+CMakeFiles/RK2.elf.dir/src/DMA_USART1/USART1/usart1.c.obj: C:/Users/xyarc/YandexDisk/Byz/Digital\ devices\ and\ microprocessors/RK2/src/DMA_USART1/USART1/usart1.c
+CMakeFiles/RK2.elf.dir/src/DMA_USART1/USART1/usart1.c.obj: CMakeFiles/RK2.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\xyarc\YandexDisk\Byz\Digital devices and microprocessors\RK2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/RK2.elf.dir/src/DMA_USART1/USART1/usart1.c.obj"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/RK2.elf.dir/src/DMA_USART1/USART1/usart1.c.obj -MF CMakeFiles\RK2.elf.dir\src\DMA_USART1\USART1\usart1.c.obj.d -o CMakeFiles\RK2.elf.dir\src\DMA_USART1\USART1\usart1.c.obj -c "C:\Users\xyarc\YandexDisk\Byz\Digital devices and microprocessors\RK2\src\DMA_USART1\USART1\usart1.c"
+
+CMakeFiles/RK2.elf.dir/src/DMA_USART1/USART1/usart1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RK2.elf.dir/src/DMA_USART1/USART1/usart1.c.i"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\xyarc\YandexDisk\Byz\Digital devices and microprocessors\RK2\src\DMA_USART1\USART1\usart1.c" > CMakeFiles\RK2.elf.dir\src\DMA_USART1\USART1\usart1.c.i
+
+CMakeFiles/RK2.elf.dir/src/DMA_USART1/USART1/usart1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RK2.elf.dir/src/DMA_USART1/USART1/usart1.c.s"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\xyarc\YandexDisk\Byz\Digital devices and microprocessors\RK2\src\DMA_USART1\USART1\usart1.c" -o CMakeFiles\RK2.elf.dir\src\DMA_USART1\USART1\usart1.c.s
+
+CMakeFiles/RK2.elf.dir/src/DMA_USART1/setup_DMA_USART1.c.obj: CMakeFiles/RK2.elf.dir/flags.make
+CMakeFiles/RK2.elf.dir/src/DMA_USART1/setup_DMA_USART1.c.obj: C:/Users/xyarc/YandexDisk/Byz/Digital\ devices\ and\ microprocessors/RK2/src/DMA_USART1/setup_DMA_USART1.c
+CMakeFiles/RK2.elf.dir/src/DMA_USART1/setup_DMA_USART1.c.obj: CMakeFiles/RK2.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\xyarc\YandexDisk\Byz\Digital devices and microprocessors\RK2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/RK2.elf.dir/src/DMA_USART1/setup_DMA_USART1.c.obj"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/RK2.elf.dir/src/DMA_USART1/setup_DMA_USART1.c.obj -MF CMakeFiles\RK2.elf.dir\src\DMA_USART1\setup_DMA_USART1.c.obj.d -o CMakeFiles\RK2.elf.dir\src\DMA_USART1\setup_DMA_USART1.c.obj -c "C:\Users\xyarc\YandexDisk\Byz\Digital devices and microprocessors\RK2\src\DMA_USART1\setup_DMA_USART1.c"
+
+CMakeFiles/RK2.elf.dir/src/DMA_USART1/setup_DMA_USART1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RK2.elf.dir/src/DMA_USART1/setup_DMA_USART1.c.i"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\xyarc\YandexDisk\Byz\Digital devices and microprocessors\RK2\src\DMA_USART1\setup_DMA_USART1.c" > CMakeFiles\RK2.elf.dir\src\DMA_USART1\setup_DMA_USART1.c.i
+
+CMakeFiles/RK2.elf.dir/src/DMA_USART1/setup_DMA_USART1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RK2.elf.dir/src/DMA_USART1/setup_DMA_USART1.c.s"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\xyarc\YandexDisk\Byz\Digital devices and microprocessors\RK2\src\DMA_USART1\setup_DMA_USART1.c" -o CMakeFiles\RK2.elf.dir\src\DMA_USART1\setup_DMA_USART1.c.s
+
+CMakeFiles/RK2.elf.dir/src/Startup/startup_stm32f051r8tx.s.obj: CMakeFiles/RK2.elf.dir/flags.make
+CMakeFiles/RK2.elf.dir/src/Startup/startup_stm32f051r8tx.s.obj: C:/Users/xyarc/YandexDisk/Byz/Digital\ devices\ and\ microprocessors/RK2/src/Startup/startup_stm32f051r8tx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\xyarc\YandexDisk\Byz\Digital devices and microprocessors\RK2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object CMakeFiles/RK2.elf.dir/src/Startup/startup_stm32f051r8tx.s.obj"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\RK2.elf.dir\src\Startup\startup_stm32f051r8tx.s.obj -c "C:\Users\xyarc\YandexDisk\Byz\Digital devices and microprocessors\RK2\src\Startup\startup_stm32f051r8tx.s"
+
+CMakeFiles/RK2.elf.dir/src/Startup/startup_stm32f051r8tx.s.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/RK2.elf.dir/src/Startup/startup_stm32f051r8tx.s.i"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E "C:\Users\xyarc\YandexDisk\Byz\Digital devices and microprocessors\RK2\src\Startup\startup_stm32f051r8tx.s" > CMakeFiles\RK2.elf.dir\src\Startup\startup_stm32f051r8tx.s.i
+
+CMakeFiles/RK2.elf.dir/src/Startup/startup_stm32f051r8tx.s.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/RK2.elf.dir/src/Startup/startup_stm32f051r8tx.s.s"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S "C:\Users\xyarc\YandexDisk\Byz\Digital devices and microprocessors\RK2\src\Startup\startup_stm32f051r8tx.s" -o CMakeFiles\RK2.elf.dir\src\Startup\startup_stm32f051r8tx.s.s
+
+CMakeFiles/RK2.elf.dir/src/main.c.obj: CMakeFiles/RK2.elf.dir/flags.make
+CMakeFiles/RK2.elf.dir/src/main.c.obj: C:/Users/xyarc/YandexDisk/Byz/Digital\ devices\ and\ microprocessors/RK2/src/main.c
+CMakeFiles/RK2.elf.dir/src/main.c.obj: CMakeFiles/RK2.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\xyarc\YandexDisk\Byz\Digital devices and microprocessors\RK2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/RK2.elf.dir/src/main.c.obj"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/RK2.elf.dir/src/main.c.obj -MF CMakeFiles\RK2.elf.dir\src\main.c.obj.d -o CMakeFiles\RK2.elf.dir\src\main.c.obj -c "C:\Users\xyarc\YandexDisk\Byz\Digital devices and microprocessors\RK2\src\main.c"
+
+CMakeFiles/RK2.elf.dir/src/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RK2.elf.dir/src/main.c.i"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\xyarc\YandexDisk\Byz\Digital devices and microprocessors\RK2\src\main.c" > CMakeFiles\RK2.elf.dir\src\main.c.i
+
+CMakeFiles/RK2.elf.dir/src/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RK2.elf.dir/src/main.c.s"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\xyarc\YandexDisk\Byz\Digital devices and microprocessors\RK2\src\main.c" -o CMakeFiles\RK2.elf.dir\src\main.c.s
 
 # Object files for target RK2.elf
 RK2_elf_OBJECTS = \
-"CMakeFiles/RK2.elf.dir/Core/Startup/startup_stm32f051r8tx.s.obj" \
-"CMakeFiles/RK2.elf.dir/Core/main.c.obj"
+"CMakeFiles/RK2.elf.dir/src/COMMAND_RESOLVE/command.c.obj" \
+"CMakeFiles/RK2.elf.dir/src/DMA_ADC/ADC/adc.c.obj" \
+"CMakeFiles/RK2.elf.dir/src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.c.obj" \
+"CMakeFiles/RK2.elf.dir/src/DMA_ADC/setup_DMA_ADC.c.obj" \
+"CMakeFiles/RK2.elf.dir/src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.c.obj" \
+"CMakeFiles/RK2.elf.dir/src/DMA_USART1/USART1/usart1.c.obj" \
+"CMakeFiles/RK2.elf.dir/src/DMA_USART1/setup_DMA_USART1.c.obj" \
+"CMakeFiles/RK2.elf.dir/src/Startup/startup_stm32f051r8tx.s.obj" \
+"CMakeFiles/RK2.elf.dir/src/main.c.obj"
 
 # External object files for target RK2.elf
 RK2_elf_EXTERNAL_OBJECTS =
 
-RK2.elf: CMakeFiles/RK2.elf.dir/Core/Startup/startup_stm32f051r8tx.s.obj
-RK2.elf: CMakeFiles/RK2.elf.dir/Core/main.c.obj
+RK2.elf: CMakeFiles/RK2.elf.dir/src/COMMAND_RESOLVE/command.c.obj
+RK2.elf: CMakeFiles/RK2.elf.dir/src/DMA_ADC/ADC/adc.c.obj
+RK2.elf: CMakeFiles/RK2.elf.dir/src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.c.obj
+RK2.elf: CMakeFiles/RK2.elf.dir/src/DMA_ADC/setup_DMA_ADC.c.obj
+RK2.elf: CMakeFiles/RK2.elf.dir/src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.c.obj
+RK2.elf: CMakeFiles/RK2.elf.dir/src/DMA_USART1/USART1/usart1.c.obj
+RK2.elf: CMakeFiles/RK2.elf.dir/src/DMA_USART1/setup_DMA_USART1.c.obj
+RK2.elf: CMakeFiles/RK2.elf.dir/src/Startup/startup_stm32f051r8tx.s.obj
+RK2.elf: CMakeFiles/RK2.elf.dir/src/main.c.obj
 RK2.elf: CMakeFiles/RK2.elf.dir/build.make
 RK2.elf: CMakeFiles/RK2.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\xyarc\YandexDisk\Byz\Digital devices and microprocessors\RK2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable RK2.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\xyarc\YandexDisk\Byz\Digital devices and microprocessors\RK2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking C executable RK2.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\RK2.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building C:/Users/xyarc/YandexDisk/Byz/Digital devices and microprocessors/RK2/cmake-build-debug/RK2.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building C:/Users/xyarc/YandexDisk/Byz/Digital devices and microprocessors/RK2/cmake-build-debug/RK2.bin"

@@ -42,9 +42,9 @@
   * @{
   */
 /**
- * @brief Configuration of the Cortex-M0 Processor and Core Peripherals
+ * @brief Configuration of the Cortex-M0 Processor and src Peripherals
  */
-#define __CM0_REV                 0 /*!< Core Revision r0p0                            */
+#define __CM0_REV                 0 /*!< src Revision r0p0                            */
 #define __MPU_PRESENT             0 /*!< STM32F0xx do not provide MPU                  */
 #define __NVIC_PRIO_BITS          2 /*!< STM32F0xx uses 2 Bits for the Priority Levels */
 #define __Vendor_SysTickConfig    0     /*!< Set to 1 if different SysTick Config is used */
@@ -1386,13 +1386,13 @@ typedef struct
 #define DBGMCU_APB1_FZ_DBG_RTC_STOP                  DBGMCU_APB1_FZ_DBG_RTC_STOP_Msk /*!< RTC Calendar frozen when core is halted */
 #define DBGMCU_APB1_FZ_DBG_WWDG_STOP_Pos             (11U)
 #define DBGMCU_APB1_FZ_DBG_WWDG_STOP_Msk             (0x1UL << DBGMCU_APB1_FZ_DBG_WWDG_STOP_Pos) /*!< 0x00000800 */
-#define DBGMCU_APB1_FZ_DBG_WWDG_STOP                 DBGMCU_APB1_FZ_DBG_WWDG_STOP_Msk /*!< Debug Window Watchdog stopped when Core is halted */
+#define DBGMCU_APB1_FZ_DBG_WWDG_STOP                 DBGMCU_APB1_FZ_DBG_WWDG_STOP_Msk /*!< Debug Window Watchdog stopped when src is halted */
 #define DBGMCU_APB1_FZ_DBG_IWDG_STOP_Pos             (12U)
 #define DBGMCU_APB1_FZ_DBG_IWDG_STOP_Msk             (0x1UL << DBGMCU_APB1_FZ_DBG_IWDG_STOP_Pos) /*!< 0x00001000 */
-#define DBGMCU_APB1_FZ_DBG_IWDG_STOP                 DBGMCU_APB1_FZ_DBG_IWDG_STOP_Msk /*!< Debug Independent Watchdog stopped when Core is halted */
+#define DBGMCU_APB1_FZ_DBG_IWDG_STOP                 DBGMCU_APB1_FZ_DBG_IWDG_STOP_Msk /*!< Debug Independent Watchdog stopped when src is halted */
 #define DBGMCU_APB1_FZ_DBG_I2C1_SMBUS_TIMEOUT_Pos    (21U)
 #define DBGMCU_APB1_FZ_DBG_I2C1_SMBUS_TIMEOUT_Msk    (0x1UL << DBGMCU_APB1_FZ_DBG_I2C1_SMBUS_TIMEOUT_Pos) /*!< 0x00200000 */
-#define DBGMCU_APB1_FZ_DBG_I2C1_SMBUS_TIMEOUT        DBGMCU_APB1_FZ_DBG_I2C1_SMBUS_TIMEOUT_Msk /*!< I2C1 SMBUS timeout mode stopped when Core is halted */
+#define DBGMCU_APB1_FZ_DBG_I2C1_SMBUS_TIMEOUT        DBGMCU_APB1_FZ_DBG_I2C1_SMBUS_TIMEOUT_Msk /*!< I2C1 SMBUS timeout mode stopped when src is halted */
 
 /******************  Bit definition for DBGMCU_APB2_FZ register  **************/
 #define DBGMCU_APB2_FZ_DBG_TIM1_STOP_Pos             (11U)

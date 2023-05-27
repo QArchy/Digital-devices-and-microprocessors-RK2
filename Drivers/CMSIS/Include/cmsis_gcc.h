@@ -115,9 +115,9 @@
 #endif
 
 
-/* ###########################  Core Function Access  ########################### */
+/* ###########################  src Function Access  ########################### */
 /** \ingroup  CMSIS_Core_FunctionInterface
-    \defgroup CMSIS_Core_RegAccFunctions CMSIS Core Register Access Functions
+    \defgroup CMSIS_Core_RegAccFunctions CMSIS src Register Access Functions
   @{
  */
 
@@ -810,8 +810,8 @@ __STATIC_FORCEINLINE void __set_FPSCR(uint32_t fpscr)
 /*@} end of CMSIS_Core_RegAccFunctions */
 
 
-/* ##########################  Core Instruction Access  ######################### */
-/** \defgroup CMSIS_Core_InstructionInterface CMSIS Core Instruction Interface
+/* ##########################  src Instruction Access  ######################### */
+/** \defgroup CMSIS_Core_InstructionInterface CMSIS src Instruction Interface
   Access to dedicated instructions
   @{
 */

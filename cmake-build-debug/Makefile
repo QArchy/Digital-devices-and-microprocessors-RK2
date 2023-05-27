@@ -128,37 +128,205 @@ RK2.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\RK2.elf.dir\build.make CMakeFiles/RK2.elf.dir/build
 .PHONY : RK2.elf/fast
 
-Core/Startup/startup_stm32f051r8tx.obj: Core/Startup/startup_stm32f051r8tx.s.obj
-.PHONY : Core/Startup/startup_stm32f051r8tx.obj
+src/COMMAND_RESOLVE/command.obj: src/COMMAND_RESOLVE/command.c.obj
+.PHONY : src/COMMAND_RESOLVE/command.obj
 
 # target to build an object file
-Core/Startup/startup_stm32f051r8tx.s.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RK2.elf.dir\build.make CMakeFiles/RK2.elf.dir/Core/Startup/startup_stm32f051r8tx.s.obj
-.PHONY : Core/Startup/startup_stm32f051r8tx.s.obj
+src/COMMAND_RESOLVE/command.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RK2.elf.dir\build.make CMakeFiles/RK2.elf.dir/src/COMMAND_RESOLVE/command.c.obj
+.PHONY : src/COMMAND_RESOLVE/command.c.obj
 
-Core/main.obj: Core/main.c.obj
-.PHONY : Core/main.obj
-
-# target to build an object file
-Core/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RK2.elf.dir\build.make CMakeFiles/RK2.elf.dir/Core/main.c.obj
-.PHONY : Core/main.c.obj
-
-Core/main.i: Core/main.c.i
-.PHONY : Core/main.i
+src/COMMAND_RESOLVE/command.i: src/COMMAND_RESOLVE/command.c.i
+.PHONY : src/COMMAND_RESOLVE/command.i
 
 # target to preprocess a source file
-Core/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RK2.elf.dir\build.make CMakeFiles/RK2.elf.dir/Core/main.c.i
-.PHONY : Core/main.c.i
+src/COMMAND_RESOLVE/command.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RK2.elf.dir\build.make CMakeFiles/RK2.elf.dir/src/COMMAND_RESOLVE/command.c.i
+.PHONY : src/COMMAND_RESOLVE/command.c.i
 
-Core/main.s: Core/main.c.s
-.PHONY : Core/main.s
+src/COMMAND_RESOLVE/command.s: src/COMMAND_RESOLVE/command.c.s
+.PHONY : src/COMMAND_RESOLVE/command.s
 
 # target to generate assembly for a file
-Core/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RK2.elf.dir\build.make CMakeFiles/RK2.elf.dir/Core/main.c.s
-.PHONY : Core/main.c.s
+src/COMMAND_RESOLVE/command.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RK2.elf.dir\build.make CMakeFiles/RK2.elf.dir/src/COMMAND_RESOLVE/command.c.s
+.PHONY : src/COMMAND_RESOLVE/command.c.s
+
+src/DMA_ADC/ADC/adc.obj: src/DMA_ADC/ADC/adc.c.obj
+.PHONY : src/DMA_ADC/ADC/adc.obj
+
+# target to build an object file
+src/DMA_ADC/ADC/adc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RK2.elf.dir\build.make CMakeFiles/RK2.elf.dir/src/DMA_ADC/ADC/adc.c.obj
+.PHONY : src/DMA_ADC/ADC/adc.c.obj
+
+src/DMA_ADC/ADC/adc.i: src/DMA_ADC/ADC/adc.c.i
+.PHONY : src/DMA_ADC/ADC/adc.i
+
+# target to preprocess a source file
+src/DMA_ADC/ADC/adc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RK2.elf.dir\build.make CMakeFiles/RK2.elf.dir/src/DMA_ADC/ADC/adc.c.i
+.PHONY : src/DMA_ADC/ADC/adc.c.i
+
+src/DMA_ADC/ADC/adc.s: src/DMA_ADC/ADC/adc.c.s
+.PHONY : src/DMA_ADC/ADC/adc.s
+
+# target to generate assembly for a file
+src/DMA_ADC/ADC/adc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RK2.elf.dir\build.make CMakeFiles/RK2.elf.dir/src/DMA_ADC/ADC/adc.c.s
+.PHONY : src/DMA_ADC/ADC/adc.c.s
+
+src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.obj: src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.c.obj
+.PHONY : src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.obj
+
+# target to build an object file
+src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RK2.elf.dir\build.make CMakeFiles/RK2.elf.dir/src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.c.obj
+.PHONY : src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.c.obj
+
+src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.i: src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.c.i
+.PHONY : src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.i
+
+# target to preprocess a source file
+src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RK2.elf.dir\build.make CMakeFiles/RK2.elf.dir/src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.c.i
+.PHONY : src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.c.i
+
+src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.s: src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.c.s
+.PHONY : src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.s
+
+# target to generate assembly for a file
+src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RK2.elf.dir\build.make CMakeFiles/RK2.elf.dir/src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.c.s
+.PHONY : src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.c.s
+
+src/DMA_ADC/setup_DMA_ADC.obj: src/DMA_ADC/setup_DMA_ADC.c.obj
+.PHONY : src/DMA_ADC/setup_DMA_ADC.obj
+
+# target to build an object file
+src/DMA_ADC/setup_DMA_ADC.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RK2.elf.dir\build.make CMakeFiles/RK2.elf.dir/src/DMA_ADC/setup_DMA_ADC.c.obj
+.PHONY : src/DMA_ADC/setup_DMA_ADC.c.obj
+
+src/DMA_ADC/setup_DMA_ADC.i: src/DMA_ADC/setup_DMA_ADC.c.i
+.PHONY : src/DMA_ADC/setup_DMA_ADC.i
+
+# target to preprocess a source file
+src/DMA_ADC/setup_DMA_ADC.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RK2.elf.dir\build.make CMakeFiles/RK2.elf.dir/src/DMA_ADC/setup_DMA_ADC.c.i
+.PHONY : src/DMA_ADC/setup_DMA_ADC.c.i
+
+src/DMA_ADC/setup_DMA_ADC.s: src/DMA_ADC/setup_DMA_ADC.c.s
+.PHONY : src/DMA_ADC/setup_DMA_ADC.s
+
+# target to generate assembly for a file
+src/DMA_ADC/setup_DMA_ADC.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RK2.elf.dir\build.make CMakeFiles/RK2.elf.dir/src/DMA_ADC/setup_DMA_ADC.c.s
+.PHONY : src/DMA_ADC/setup_DMA_ADC.c.s
+
+src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.obj: src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.c.obj
+.PHONY : src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.obj
+
+# target to build an object file
+src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RK2.elf.dir\build.make CMakeFiles/RK2.elf.dir/src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.c.obj
+.PHONY : src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.c.obj
+
+src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.i: src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.c.i
+.PHONY : src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.i
+
+# target to preprocess a source file
+src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RK2.elf.dir\build.make CMakeFiles/RK2.elf.dir/src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.c.i
+.PHONY : src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.c.i
+
+src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.s: src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.c.s
+.PHONY : src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.s
+
+# target to generate assembly for a file
+src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RK2.elf.dir\build.make CMakeFiles/RK2.elf.dir/src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.c.s
+.PHONY : src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.c.s
+
+src/DMA_USART1/USART1/usart1.obj: src/DMA_USART1/USART1/usart1.c.obj
+.PHONY : src/DMA_USART1/USART1/usart1.obj
+
+# target to build an object file
+src/DMA_USART1/USART1/usart1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RK2.elf.dir\build.make CMakeFiles/RK2.elf.dir/src/DMA_USART1/USART1/usart1.c.obj
+.PHONY : src/DMA_USART1/USART1/usart1.c.obj
+
+src/DMA_USART1/USART1/usart1.i: src/DMA_USART1/USART1/usart1.c.i
+.PHONY : src/DMA_USART1/USART1/usart1.i
+
+# target to preprocess a source file
+src/DMA_USART1/USART1/usart1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RK2.elf.dir\build.make CMakeFiles/RK2.elf.dir/src/DMA_USART1/USART1/usart1.c.i
+.PHONY : src/DMA_USART1/USART1/usart1.c.i
+
+src/DMA_USART1/USART1/usart1.s: src/DMA_USART1/USART1/usart1.c.s
+.PHONY : src/DMA_USART1/USART1/usart1.s
+
+# target to generate assembly for a file
+src/DMA_USART1/USART1/usart1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RK2.elf.dir\build.make CMakeFiles/RK2.elf.dir/src/DMA_USART1/USART1/usart1.c.s
+.PHONY : src/DMA_USART1/USART1/usart1.c.s
+
+src/DMA_USART1/setup_DMA_USART1.obj: src/DMA_USART1/setup_DMA_USART1.c.obj
+.PHONY : src/DMA_USART1/setup_DMA_USART1.obj
+
+# target to build an object file
+src/DMA_USART1/setup_DMA_USART1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RK2.elf.dir\build.make CMakeFiles/RK2.elf.dir/src/DMA_USART1/setup_DMA_USART1.c.obj
+.PHONY : src/DMA_USART1/setup_DMA_USART1.c.obj
+
+src/DMA_USART1/setup_DMA_USART1.i: src/DMA_USART1/setup_DMA_USART1.c.i
+.PHONY : src/DMA_USART1/setup_DMA_USART1.i
+
+# target to preprocess a source file
+src/DMA_USART1/setup_DMA_USART1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RK2.elf.dir\build.make CMakeFiles/RK2.elf.dir/src/DMA_USART1/setup_DMA_USART1.c.i
+.PHONY : src/DMA_USART1/setup_DMA_USART1.c.i
+
+src/DMA_USART1/setup_DMA_USART1.s: src/DMA_USART1/setup_DMA_USART1.c.s
+.PHONY : src/DMA_USART1/setup_DMA_USART1.s
+
+# target to generate assembly for a file
+src/DMA_USART1/setup_DMA_USART1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RK2.elf.dir\build.make CMakeFiles/RK2.elf.dir/src/DMA_USART1/setup_DMA_USART1.c.s
+.PHONY : src/DMA_USART1/setup_DMA_USART1.c.s
+
+src/Startup/startup_stm32f051r8tx.obj: src/Startup/startup_stm32f051r8tx.s.obj
+.PHONY : src/Startup/startup_stm32f051r8tx.obj
+
+# target to build an object file
+src/Startup/startup_stm32f051r8tx.s.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RK2.elf.dir\build.make CMakeFiles/RK2.elf.dir/src/Startup/startup_stm32f051r8tx.s.obj
+.PHONY : src/Startup/startup_stm32f051r8tx.s.obj
+
+src/main.obj: src/main.c.obj
+.PHONY : src/main.obj
+
+# target to build an object file
+src/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RK2.elf.dir\build.make CMakeFiles/RK2.elf.dir/src/main.c.obj
+.PHONY : src/main.c.obj
+
+src/main.i: src/main.c.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RK2.elf.dir\build.make CMakeFiles/RK2.elf.dir/src/main.c.i
+.PHONY : src/main.c.i
+
+src/main.s: src/main.c.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\RK2.elf.dir\build.make CMakeFiles/RK2.elf.dir/src/main.c.s
+.PHONY : src/main.c.s
 
 # Help Target
 help:
@@ -169,10 +337,31 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... RK2.elf
-	@echo ... Core/Startup/startup_stm32f051r8tx.obj
-	@echo ... Core/main.obj
-	@echo ... Core/main.i
-	@echo ... Core/main.s
+	@echo ... src/COMMAND_RESOLVE/command.obj
+	@echo ... src/COMMAND_RESOLVE/command.i
+	@echo ... src/COMMAND_RESOLVE/command.s
+	@echo ... src/DMA_ADC/ADC/adc.obj
+	@echo ... src/DMA_ADC/ADC/adc.i
+	@echo ... src/DMA_ADC/ADC/adc.s
+	@echo ... src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.obj
+	@echo ... src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.i
+	@echo ... src/DMA_ADC/DMA_FOR_ADC/dma_for_adc.s
+	@echo ... src/DMA_ADC/setup_DMA_ADC.obj
+	@echo ... src/DMA_ADC/setup_DMA_ADC.i
+	@echo ... src/DMA_ADC/setup_DMA_ADC.s
+	@echo ... src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.obj
+	@echo ... src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.i
+	@echo ... src/DMA_USART1/DMA_FOR_USART1/dma_for_usart1.s
+	@echo ... src/DMA_USART1/USART1/usart1.obj
+	@echo ... src/DMA_USART1/USART1/usart1.i
+	@echo ... src/DMA_USART1/USART1/usart1.s
+	@echo ... src/DMA_USART1/setup_DMA_USART1.obj
+	@echo ... src/DMA_USART1/setup_DMA_USART1.i
+	@echo ... src/DMA_USART1/setup_DMA_USART1.s
+	@echo ... src/Startup/startup_stm32f051r8tx.obj
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
 .PHONY : help
 
 
