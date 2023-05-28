@@ -1,6 +1,7 @@
 #include "command.h"
 
 extern uint8_t COMMAND_RECEIVED_VIA_USART;
+extern uint8_t ANSWER_TRANSMISSION_VIA_USART_ENDED;
 extern uint8_t ADC_TRANSMISSION_ENDED;
 
 void PARSE_COMMAND(COMMAND *command, const uint8_t *buffer) {
@@ -21,7 +22,7 @@ void RESOLVE_COMMAND(COMMAND *command, COMMAND_UPDATE *command_update) {
     switch (command->command_number) {
         case SET_TRGO_FREQUENCY: { /* 0x01 */
             command_update->update_trgo_frequency.trgo_frequency = ((uint16_t) command->command_data.command_data_0) \
-                | (((uint16_t) command->command_data.command_data_1) << 8);
+ | (((uint16_t) command->command_data.command_data_1) << 8);
             command_update->update_trgo_frequency.update_flag = 1;
             GPIOC->ODR ^= GPIO_ODR_8;
             break;
@@ -33,7 +34,7 @@ void RESOLVE_COMMAND(COMMAND *command, COMMAND_UPDATE *command_update) {
             break;
         case GET_ADC_DATA: /* 0x03 */
             command_update->update_get_adc_data.get_adc_data = ((uint16_t) command->command_data.command_data_0) \
-                | (((uint16_t) command->command_data.command_data_1) << 8);
+ | (((uint16_t) command->command_data.command_data_1) << 8);
             command_update->update_get_adc_data.update_flag = 1;
             GPIOC->ODR ^= GPIO_ODR_8;
             break;
@@ -48,7 +49,7 @@ void RESOLVE_COMMAND(COMMAND *command, COMMAND_UPDATE *command_update) {
     INIT_RESET_COMMAND_STRUCTURE(command)
 }
 
-static uint32_t get_adc_frequency(uint16_t data) {
+static inline uint32_t get_adc_frequency(uint16_t data) {
     uint8_t ones_quantity = 0;
     uint32_t frequency = 2;
     for (uint8_t i = 0; i < 16; i++) {
@@ -63,7 +64,9 @@ static uint32_t get_adc_frequency(uint16_t data) {
 void EXECUTE_COMMAND(COMMAND_UPDATE *command_update) {
     if (command_update->update_trgo_frequency.update_flag) { /* 0x01 */
         command_update->update_trgo_frequency.update_flag = 0;
+        TIM15->CR1 &= ~TIM_CR1_CEN;
         TIM15->ARR = get_adc_frequency(command_update->update_trgo_frequency.trgo_frequency);
+        TIM15->CR1 |= TIM_CR1_CEN;
         GPIOC->ODR ^= GPIO_ODR_9;
     }
     if (command_update->update_switch_adc.update_flag) { /* 0x02 */
@@ -92,8 +95,10 @@ void EXECUTE_COMMAND(COMMAND_UPDATE *command_update) {
         }
     }
     // exact print
-    if (command_update->update_get_adc_data.get_adc_data > 0 && ADC_TRANSMISSION_ENDED) {
+    if (command_update->update_get_adc_data.get_adc_data > 0 && ADC_TRANSMISSION_ENDED
+        && ANSWER_TRANSMISSION_VIA_USART_ENDED) {
         ADC_TRANSMISSION_ENDED = 0;
+        ANSWER_TRANSMISSION_VIA_USART_ENDED = 0;
         command_update->update_get_adc_data.get_adc_data--;
         SEND_ANSWER_VIA_USART
     }

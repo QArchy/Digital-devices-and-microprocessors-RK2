@@ -1,6 +1,7 @@
 #include "dma_for_usart1.h"
 
 uint8_t COMMAND_RECEIVED_VIA_USART = 0;
+uint8_t ANSWER_TRANSMISSION_VIA_USART_ENDED = 0;
 
 void DMA1_Channel2_3_IRQHandler(void) {
     if ((DMA1->ISR & DMA_ISR_TCIF2) == DMA_ISR_TCIF2) {
@@ -8,6 +9,7 @@ void DMA1_Channel2_3_IRQHandler(void) {
         DMA1_Channel2->CCR &= ~DMA_CCR_EN; // turn off DMA transmission
         //size of data in byte
         DMA1_Channel2->CNDTR = MY_CNDTR_TX;
+        ANSWER_TRANSMISSION_VIA_USART_ENDED = 1;
     }
     if ((DMA1->ISR & DMA_ISR_TCIF3) == DMA_ISR_TCIF3) {
         DMA1->IFCR |= DMA_IFCR_CTCIF3;
