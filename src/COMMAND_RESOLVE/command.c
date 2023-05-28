@@ -1,8 +1,10 @@
 #include "command.h"
 
 extern uint8_t COMMAND_RECEIVED_VIA_USART;
-extern uint8_t ANSWER_TRANSMISSION_VIA_USART_ENDED;
 extern uint8_t ADC_TRANSMISSION_ENDED;
+extern uint8_t ANSWER_SEND_VIA_USART;
+
+#define END_OF_ADC_TRANSMISSION(predicate) (predicate && ADC_TRANSMISSION_ENDED)
 
 void PARSE_COMMAND(COMMAND *command, const uint8_t *buffer) {
     if (!COMMAND_RECEIVED_VIA_USART) { return; }
@@ -49,23 +51,23 @@ void RESOLVE_COMMAND(COMMAND *command, COMMAND_UPDATE *command_update) {
     INIT_RESET_COMMAND_STRUCTURE(command)
 }
 
-static inline uint32_t get_adc_frequency(uint16_t data) {
+static uint32_t get_adc_frequency(uint16_t data) {
     uint8_t ones_quantity = 0;
-    uint32_t frequency = 2;
     for (uint8_t i = 0; i < 16; i++) {
         if (data & (1 << i)) {
             ones_quantity++;
         }
     }
-    for (uint8_t i = 0; i < ones_quantity; i++) { frequency *= 2; }
-    return frequency;
+
+    return ((uint32_t) 1) << ones_quantity;
 }
 
 void EXECUTE_COMMAND(COMMAND_UPDATE *command_update) {
     if (command_update->update_trgo_frequency.update_flag) { /* 0x01 */
         command_update->update_trgo_frequency.update_flag = 0;
         TIM15->CR1 &= ~TIM_CR1_CEN;
-        TIM15->ARR = get_adc_frequency(command_update->update_trgo_frequency.trgo_frequency);
+        TIM15->ARR = command_update->update_trgo_frequency.trgo_frequency == 0 ? 2 :
+                     get_adc_frequency(command_update->update_trgo_frequency.trgo_frequency);
         TIM15->CR1 |= TIM_CR1_CEN;
         GPIOC->ODR ^= GPIO_ODR_9;
     }
@@ -88,18 +90,17 @@ void EXECUTE_COMMAND(COMMAND_UPDATE *command_update) {
     }
     /// Loop command actions
     // infinite print
-    if (command_update->update_switch_get_adc_data_infinitely.switch_get_adc_data_infinitely) {
-        if (ADC_TRANSMISSION_ENDED) {
-            ADC_TRANSMISSION_ENDED = 0;
-            SEND_ANSWER_VIA_USART
-        }
+    if (END_OF_ADC_TRANSMISSION(command_update->update_switch_get_adc_data_infinitely.switch_get_adc_data_infinitely)) {
+        ADC_TRANSMISSION_ENDED = 0;
+        SEND_ANSWER_VIA_USART
     }
     // exact print
-    if (command_update->update_get_adc_data.get_adc_data > 0 && ADC_TRANSMISSION_ENDED
-        && ANSWER_TRANSMISSION_VIA_USART_ENDED) {
+    if (END_OF_ADC_TRANSMISSION(command_update->update_get_adc_data.get_adc_data)) {
         ADC_TRANSMISSION_ENDED = 0;
-        ANSWER_TRANSMISSION_VIA_USART_ENDED = 0;
-        command_update->update_get_adc_data.get_adc_data--;
+        if (ANSWER_SEND_VIA_USART) {
+            ANSWER_SEND_VIA_USART = 0;
+            command_update->update_get_adc_data.get_adc_data--;
+        }
         SEND_ANSWER_VIA_USART
     }
 }

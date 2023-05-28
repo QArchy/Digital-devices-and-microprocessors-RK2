@@ -2,6 +2,7 @@
 
 static void SETUP_GPIO_FOR_ADC(void) {
     GPIOA->MODER |= GPIO_MODER_MODER0;	//pa0 as analog function
+    GPIOB->MODER |= GPIO_MODER_MODER0;	//pb0 as analog function
 }
 
 static void SETUP_DMA_FOR_ADC(void) {
@@ -18,6 +19,8 @@ static void SETUP_TIM15_FOR_ADC() {
 }
 
 static void CONFIGURE_TIM15_AS_TRGO() {
+    ADC1->CFGR1 &= ~ADC_CFGR1_CONT;
+    ADC1->CFGR1 |= ADC_CFGR1_DISCEN;
     ADC1->CFGR1 |= ADC_CFGR1_EXTEN_0;
     ADC1->CFGR1 |= ADC_CFGR1_EXTSEL_2;
 }
@@ -36,8 +39,8 @@ void SETUP_ADC(void) {
 
     ADC1->CFGR1 |= ADC_CFGR1_CONT;
     ADC1->CFGR1 |= ADC_CFGR1_OVRMOD;
-    ADC1->SMPR |= ADC_SMPR1_SMPR; // 0x07 239.5 adc cycles
-    ADC1->CHSELR |= ADC_CHSELR_CHSEL0; // 0 channel is ON...
+    ADC1->SMPR |= ADC_SMPR1_SMPR;	//0x07 239.5 adc cycles
+    ADC1->CHSELR |= ADC_CHSELR_CHSEL0 | ADC_CHSELR_CHSEL8;	//1 and 8 channels are ON...
 
     SETUP_DMA_FOR_ADC();
     SETUP_TIM15_FOR_ADC();
